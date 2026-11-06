@@ -216,6 +216,8 @@
     background:var(--bg);
     color:var(--ink);
     font-family:Montserrat,system-ui,sans-serif;
+    font-synthesis:none;
+    -webkit-font-smoothing:antialiased;
     overflow-x:hidden;
     background-image:
       radial-gradient(1200px 700px at 50% -10%, rgba(31,111,184,.18), transparent 60%),
@@ -270,7 +272,7 @@
   .nav a.active{background:var(--pill);color:#06223f}
 
   .eyebrow{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
-  .title-font{font-family:Anton,Impact,sans-serif;text-transform:uppercase;letter-spacing:.01em}
+  .title-font{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;letter-spacing:.02em}
   .metal{
     background:linear-gradient(180deg,#f2f4f6 0%,#b9c0c8 45%,#7d8792 55%,#cfd5db 100%);
     -webkit-background-clip:text;background-clip:text;color:transparent;
@@ -282,7 +284,7 @@
     background:
       linear-gradient(90deg, rgba(3,6,10,.88) 0%, rgba(3,6,10,.62) 45%, rgba(3,6,10,.35) 100%),
       radial-gradient(700px 420px at 100% 0%, rgba(31,111,184,.30), transparent 70%),
-      url("assets/hero-bg.jpg") right center / cover no-repeat,
+      url("assets/hero-bg.jpg?v=2") right center / cover no-repeat,
       #050608;
   }
   .hero{
@@ -391,7 +393,7 @@
   .item .when::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--steel)}
   .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:6px}
   .stat{background:rgba(11,22,38,.7);border-radius:10px;padding:12px;box-shadow:inset 0 0 0 1px var(--line)}
-  .stat strong{display:block;font-family:Anton;font-size:26px;color:#fff;letter-spacing:.02em}
+  .stat strong{display:block;font-family:Anton;font-weight:400;font-size:26px;color:#fff;letter-spacing:.02em}
   .stat span{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 
   /* ---------- 3. PROJECTS ---------- */
@@ -471,7 +473,7 @@
   .timeline{display:flex;gap:16px;margin-top:36px;flex-wrap:wrap}
   .tl{flex:1 1 200px;background:rgba(11,22,38,.7);border-radius:6px;padding:16px;box-shadow:inset 0 0 0 1px var(--line)}
   .tl .yr{font-family:Oswald;font-size:12px;color:var(--steel);letter-spacing:.1em}
-  .tl b{display:block;font-family:Anton;font-size:20px;margin:4px 0;letter-spacing:.03em;text-transform:uppercase}
+  .tl b{display:block;font-family:Anton;font-weight:400;font-size:20px;margin:4px 0;letter-spacing:.03em;text-transform:uppercase}
   .tl span{font-size:11.5px;color:#aeb9c6;line-height:1.5}
   footer{text-align:center;padding:14px 0 30px;font-size:11px;color:#4b5a6c;letter-spacing:.1em}
 
@@ -498,7 +500,7 @@
     .hero-name-big{font-size:clamp(40px,12.5vw,64px)}
     .logo{top:16px;left:16px}
     .logo img{width:38px;height:38px}
-    #start{background:linear-gradient(180deg, rgba(3,6,10,.6) 0%, rgba(3,6,10,.85) 70%), url("assets/hero-bg.jpg") 70% center / cover no-repeat, #050608}
+    #start{background:linear-gradient(180deg, rgba(3,6,10,.6) 0%, rgba(3,6,10,.85) 70%), url("assets/hero-bg.jpg?v=2") 70% center / cover no-repeat, #050608}
     .hero{flex-direction:column;text-align:center}
     .dshape{margin-left:0;padding-left:30px;border-radius:999px}
     .hero-title{justify-content:center;align-items:center;flex-direction:column;gap:4px}
@@ -784,6 +786,23 @@
 <footer>© SHAMS ULLAH BAIG · FULL-STACK DEVELOPER &amp; AI ENGINEER · ISLAMABAD</footer>
 
 <script>
+/* ---------- in-page links: smooth scroll, keep the URL clean (no #hash) ---------- */
+document.addEventListener("click", e => {
+  const a = e.target.closest('a[href^="#"]');
+  if (!a) return;
+  const id = a.getAttribute("href").slice(1);
+  const el = id ? document.getElementById(id) : null;
+  if (!el) return;
+  e.preventDefault();
+  el.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start"});
+  if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+});
+if (location.hash) {
+  const el = document.getElementById(location.hash.slice(1));
+  history.replaceState(null, "", location.pathname + location.search);
+  if (el) addEventListener("load", () => el.scrollIntoView());
+}
+
 /* ---------- reveal on scroll ---------- */
 const io = new IntersectionObserver(es => es.forEach(e => {
   if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
