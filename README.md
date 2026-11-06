@@ -2,6 +2,8 @@
 
 Personal portfolio of **Shams Ullah Baig**, AI Engineer & Full-Stack Developer.
 
+Live: https://shamsullah01.github.io/
+
 A single static page (`index.html`) with no build step. It has four screens: a start menu, profile, project recap and contact.
 
 ## Run locally
