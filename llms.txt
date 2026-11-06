@@ -1,0 +1,55 @@
+# Shams Ullah Baig
+
+> Shams Ullah Baig is a Full-Stack and AI Developer (AI Engineer) based in Islamabad, Pakistan. He builds AI agents and chatbots, and full-stack web applications with React, Node.js, NestJS and TypeScript. He has 3+ years of experience delivering production software for government, healthcare, fintech, retail and tourism clients, and is available for remote, freelance and full-time work.
+
+- Website: https://shamsullah01.github.io/
+- GitHub: https://github.com/shamsullah01
+- LinkedIn: https://www.linkedin.com/in/shams-ullah-baig-8312a018b/
+- Email: shamsullahbaig999@gmail.com
+- WhatsApp: +92 317 929 2371
+- Location: Islamabad, Pakistan (remote-ready)
+
+## Services
+
+- AI agents and chatbots trained on a business's own documents: answering customers, qualifying leads, booking appointments
+- Full-stack web applications: database design, REST APIs, authentication, admin dashboards, responsive React front ends
+- SaaS and multi-tenant platforms, including point-of-sale and inventory systems
+- Payment-gateway and third-party API integration
+- Cloud deployment and hosting on AWS (EC2, S3)
+- Performance and security optimization of existing web apps
+
+## Skills
+
+- Languages: JavaScript (ES6+), TypeScript, HTML5, CSS3, SQL
+- Front end: React.js, responsive design, reusable UI components
+- Back end: Node.js, NestJS, Express.js, REST API design, JWT authentication
+- AI: LLM-based AI agents, chatbots, AI data processing
+- Databases: MongoDB, MySQL, schema design, query optimization
+- Tools: Git, GitHub, CI/CD, AWS, Postman, Netlify, Heroku
+- Practices: Agile/Scrum, code review, remote collaboration across time zones
+
+## Experience
+
+- Web Developer, UXEL Foundation (Islamabad), 2025 to present: React and NestJS features across the DTS, PROMIS, IMS and POS platforms; payment-gateway integration; AWS deployment
+- Full-Stack Developer, ValourAI (remote, international client), 2022 to 2025: automated trading platform and AI agents; NestJS/Node.js API optimization
+- Frontend Developer, Execudea (Rawalpindi), 2021 to 2022: responsive UI and cross-browser fixes
+
+## Projects
+
+- [Agentra by Valour AI](https://agents.valour.ai/): custom AI business agents that answer customers, screen prospects and schedule appointments 24/7
+- [DTS Gilgit-Baltistan](https://app.dtsgb.gog.pk/): government tourism portal for licensing tour operators, hotels and guides, with online payments and mountaineering permits
+- [PROMIS](https://promis.precipiodx.com/): product management information system for a diagnostics company (React, NestJS)
+- [IMS, USS Group](https://ims.ussgroup.pk/): enterprise platform with AI data processing that reduced manual data entry by about 30%
+- [UXL POS](https://app.uxlpos.com/): multi-tenant point-of-sale system with real-time transactions, inventory and invoicing
+- [Elham Asia](https://www.elhamasia.com/): website for a licensed Islamabad tour operator offering K2 Base Camp treks and expeditions
+- [EVRAAH](https://evraah.com/): his own EV charger locator and route planner for Pakistan
+
+## Education
+
+- B.S. Computer Science, SZABIST University, Islamabad (2021 to 2025)
+- Certifications: HTML, CSS & JavaScript; Front-End Development; Back-End Development; Foundations of Cybersecurity
+
+## Optional
+
+- [Portfolio FAQ](https://shamsullah01.github.io/#faq)
+- [CV (PDF)](https://shamsullah01.github.io/assets/Shams_Ullah_Baig_CV.pdf)
