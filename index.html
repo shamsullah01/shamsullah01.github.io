@@ -441,6 +441,14 @@
   .card .info .tags span{font-size:10px;letter-spacing:.06em;color:#9fc9f5;border:1px solid rgba(159,201,245,.3);padding:2px 7px;border-radius:999px}
   .card .info .go{display:inline-block;margin-top:9px;font-size:11px;font-weight:700;letter-spacing:.14em;color:#fff}
 
+  .svc{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+  .svc a{display:block;padding:18px 20px;border-radius:6px;background:rgba(11,22,38,.75);box-shadow:inset 0 0 0 1px var(--line);transition:.2s}
+  .svc a:hover{box-shadow:inset 0 0 0 1px rgba(42,140,255,.55);transform:translateY(-2px)}
+  .svc small{display:block;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+  .svc strong{display:block;font-family:Anton,Impact,sans-serif;font-weight:400;font-size:22px;letter-spacing:.03em;text-transform:uppercase;margin:2px 0}
+  .svc span{font-size:12px;color:#9fc9f5}
+  @media (max-width:640px){.svc{grid-template-columns:1fr}}
+
   /* ---------- FAQ ---------- */
   #faq{padding:90px clamp(16px,4vw,56px) 56px;min-height:auto}
   .faq-list{max-width:860px;margin:0 auto;display:grid;gap:10px}
@@ -482,6 +490,9 @@
   .tl .yr{font-family:Oswald;font-size:12px;color:var(--steel);letter-spacing:.1em}
   .tl b{display:block;font-family:Anton;font-weight:400;font-size:20px;margin:4px 0;letter-spacing:.03em;text-transform:uppercase}
   .tl span{font-size:11.5px;color:#aeb9c6;line-height:1.5}
+  .foot-links{margin-bottom:10px;line-height:2;letter-spacing:.04em}
+  .foot-links a{color:#7d8b9c}
+  .foot-links a:hover{color:#fff}
   footer{text-align:center;padding:14px 0 30px;font-size:11px;color:#4b5a6c;letter-spacing:.1em}
 
   /* reveal */
@@ -621,75 +632,79 @@
   </div>
 
   <div class="bento" id="bento">
-    <a class="card reveal w2 h2" href="https://agents.valour.ai/" target="_blank" rel="noopener" style="--c1:#16365f;--c2:#05101d">
+    <a class="card reveal w2 h2" href="/projects/agentra-ai-agents/" style="--c1:#16365f;--c2:#05101d">
       <div class="label" aria-hidden="true">Agentra</div>
       <img loading="lazy" width="1280" height="860" src="assets/shots/agentra.jpg" alt="Screenshot of Agentra · Valour AI, a project by Shams Ullah Baig">
       <div class="info">
         <h3>Agentra · Valour AI<em>AI</em></h3>
         <p>Custom AI agents trained on a business's own documents. They answer customers, screen leads and book appointments into the calendar around the clock.</p>
         <div class="tags"><span>AI Agents</span><span>LLM</span><span>React</span><span>Node.js</span></div>
-        <span class="go">VISIT SITE ↗</span>
+        <span class="go">VIEW CASE STUDY →</span>
       </div>
     </a>
-    <a class="card reveal w2" href="https://evraah.com/" target="_blank" rel="noopener" style="--c1:#123e66;--c2:#03070d">
+    <a class="card reveal w2" href="/projects/evraah-ev-charger-locator/" style="--c1:#123e66;--c2:#03070d">
       <div class="label" aria-hidden="true">EVRAAH</div>
       <img loading="lazy" width="1280" height="860" src="assets/shots/evraah.jpg" alt="Screenshot of EVRAAH, a project by Shams Ullah Baig">
       <div class="info">
         <h3>EVRAAH<em>Personal</em></h3>
         <p>My own product: Pakistan's EV charger locator and route planner. Find compatible stations, compare networks and plan charging stops.</p>
         <div class="tags"><span>Full-Stack</span><span>Maps</span><span>Personal</span></div>
-        <span class="go">VISIT SITE ↗</span>
+        <span class="go">VIEW CASE STUDY →</span>
       </div>
     </a>
-    <a class="card reveal " href="https://app.dtsgb.gog.pk/" target="_blank" rel="noopener" style="--c1:#1d4d2c;--c2:#04110a">
+    <a class="card reveal " href="/projects/dts-gilgit-baltistan-tourism-portal/" style="--c1:#1d4d2c;--c2:#04110a">
       <div class="label" aria-hidden="true">DTS</div>
       <img loading="lazy" width="1280" height="860" src="assets/shots/dts.jpg" alt="Screenshot of DTS · GB, a project by Shams Ullah Baig">
       <div class="info">
         <h3>DTS · GB<em>GovTech</em></h3>
         <p>Gilgit-Baltistan government tourism portal for licensing tour operators, hotels and guides, with online payments and mountaineering permits.</p>
         <div class="tags"><span>React</span><span>NestJS</span><span>Government</span></div>
-        <span class="go">VISIT SITE ↗</span>
+        <span class="go">VIEW CASE STUDY →</span>
       </div>
     </a>
-    <a class="card reveal " href="https://promis.precipiodx.com/" target="_blank" rel="noopener" style="--c1:#0f4c5c;--c2:#04121a">
+    <a class="card reveal " href="/projects/promis-product-management-system/" style="--c1:#0f4c5c;--c2:#04121a">
       <div class="label" aria-hidden="true">PROMIS</div>
       <img loading="lazy" width="1280" height="860" src="assets/shots/promis.jpg" alt="Screenshot of PROMIS, a project by Shams Ullah Baig">
       <div class="info">
         <h3>PROMIS<em>HealthTech</em></h3>
         <p>Product Management Information System for a diagnostics company. I owned full modules across products, orders and clinical data.</p>
         <div class="tags"><span>React</span><span>NestJS</span><span>Healthcare</span></div>
-        <span class="go">VISIT SITE ↗</span>
+        <span class="go">VIEW CASE STUDY →</span>
       </div>
     </a>
-    <a class="card reveal w2" href="https://www.elhamasia.com/" target="_blank" rel="noopener" style="--c1:#5b3d10;--c2:#140c03">
+    <a class="card reveal w2" href="/projects/elham-asia-tour-operator-website/" style="--c1:#5b3d10;--c2:#140c03">
       <div class="label" aria-hidden="true">Elham Asia</div>
       <img loading="lazy" width="1280" height="860" src="assets/shots/elham.jpg" alt="Screenshot of Elham Asia, a project by Shams Ullah Baig">
       <div class="info">
         <h3>Elham Asia<em>Travel</em></h3>
         <p>Site for a licensed Islamabad tour operator: K2 Base Camp treks, 8,000 m expeditions, festival tours and all-inclusive holidays.</p>
         <div class="tags"><span>Web</span><span>UI/UX</span><span>Tourism</span></div>
-        <span class="go">VISIT SITE ↗</span>
+        <span class="go">VIEW CASE STUDY →</span>
       </div>
     </a>
-    <a class="card reveal " href="https://app.uxlpos.com/" target="_blank" rel="noopener" style="--c1:#5c1f2a;--c2:#14050a">
+    <a class="card reveal " href="/projects/uxl-pos-point-of-sale/" style="--c1:#5c1f2a;--c2:#14050a">
       <div class="label" aria-hidden="true">UXL POS</div>
       <img loading="lazy" width="1280" height="860" src="assets/shots/pos.jpg" alt="Screenshot of UXL POS, a project by Shams Ullah Baig">
       <div class="info">
         <h3>UXL POS<em>SaaS</em></h3>
         <p>Multi-tenant point-of-sale system with real-time transactions, inventory, invoicing and a payment gateway.</p>
         <div class="tags"><span>React</span><span>NestJS</span><span>Payments</span></div>
-        <span class="go">VISIT SITE ↗</span>
+        <span class="go">VIEW CASE STUDY →</span>
       </div>
     </a>
-    <a class="card reveal " href="https://ims.ussgroup.pk/" target="_blank" rel="noopener" style="--c1:#3a2a66;--c2:#0a0716">
+    <a class="card reveal " href="/projects/ims-ai-enterprise-platform/" style="--c1:#3a2a66;--c2:#0a0716">
       <div class="label" aria-hidden="true">IMS</div>
       <div class="info">
         <h3>IMS · USS Group<em>AI + ERP</em></h3>
         <p>Enterprise platform with AI data processing that cut manual data entry by about 30%.</p>
         <div class="tags"><span>React</span><span>NestJS</span><span>AI</span></div>
-        <span class="go">VISIT SITE ↗</span>
+        <span class="go">VIEW CASE STUDY →</span>
       </div>
     </a>
+  </div>
+  <div class="svc reveal">
+    <a href="/hire-full-stack-developer/"><small>Service</small><strong>Hire a Full-Stack Developer</strong><span>React · Node.js · NestJS · SaaS · APIs</span></a>
+    <a href="/ai-agent-development/"><small>Service</small><strong>AI Agents &amp; Chatbots</strong><span>LLM agents · lead capture · booking · AI automation</span></a>
   </div>
 </section>
 
@@ -790,7 +805,7 @@
   </div>
 </section>
 
-<footer>© SHAMS ULLAH BAIG · FULL-STACK DEVELOPER &amp; AI ENGINEER · ISLAMABAD</footer>
+<footer><nav class="foot-links"><a href="/hire-full-stack-developer/">Hire a full-stack developer</a> · <a href="/ai-agent-development/">AI agents &amp; chatbots</a><br><a href="/projects/agentra-ai-agents/">Agentra</a> · <a href="/projects/dts-gilgit-baltistan-tourism-portal/">DTS GB</a> · <a href="/projects/promis-product-management-system/">PROMIS</a> · <a href="/projects/ims-ai-enterprise-platform/">IMS</a> · <a href="/projects/uxl-pos-point-of-sale/">UXL POS</a> · <a href="/projects/elham-asia-tour-operator-website/">Elham Asia</a> · <a href="/projects/evraah-ev-charger-locator/">EVRAAH</a></nav>© SHAMS ULLAH BAIG · FULL-STACK DEVELOPER &amp; AI ENGINEER · ISLAMABAD</footer>
 
 <script>
 /* ---------- in-page links: smooth scroll, keep the URL clean (no #hash) ---------- */

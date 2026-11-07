@@ -61,6 +61,18 @@ He combines both skill sets: he builds the full-stack product and the AI layer o
 - B.S. Computer Science, SZABIST University, Islamabad (2021 to 2025)
 - Certifications: HTML, CSS & JavaScript; Front-End Development; Back-End Development; Foundations of Cybersecurity
 
+## Pages
+
+- [Hire a Full-Stack Developer in Pakistan](https://shamsullah01.github.io/hire-full-stack-developer/): full-stack web development service
+- [AI Agents & Chatbots](https://shamsullah01.github.io/ai-agent-development/): AI engineering service
+- [Agentra case study](https://shamsullah01.github.io/projects/agentra-ai-agents/)
+- [DTS Gilgit-Baltistan case study](https://shamsullah01.github.io/projects/dts-gilgit-baltistan-tourism-portal/)
+- [PROMIS case study](https://shamsullah01.github.io/projects/promis-product-management-system/)
+- [IMS case study](https://shamsullah01.github.io/projects/ims-ai-enterprise-platform/)
+- [UXL POS case study](https://shamsullah01.github.io/projects/uxl-pos-point-of-sale/)
+- [Elham Asia case study](https://shamsullah01.github.io/projects/elham-asia-tour-operator-website/)
+- [EVRAAH case study](https://shamsullah01.github.io/projects/evraah-ev-charger-locator/)
+
 ## Optional
 
 - [Portfolio FAQ](https://shamsullah01.github.io/#faq)
