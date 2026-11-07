@@ -1,0 +1,12 @@
+{
+  "name": "Shams Ullah Baig",
+  "short_name": "Shams Baig",
+  "icons": [
+    {"src": "/assets/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/assets/icon-512.png", "sizes": "512x512", "type": "image/png"}
+  ],
+  "theme_color": "#03070d",
+  "background_color": "#03070d",
+  "display": "browser",
+  "start_url": "/"
+}
