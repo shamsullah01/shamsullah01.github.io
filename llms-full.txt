@@ -6,6 +6,7 @@
 - GitHub: https://github.com/shamsullah01
 - LinkedIn: https://www.linkedin.com/in/shams-ullah-baig-8312a018b/
 - X (Twitter): https://x.com/Shamsullah999
+- Instagram: https://www.instagram.com/shams_ullah01/
 - Email: shamsullahbaig999@gmail.com
 - WhatsApp: +92 317 929 2371
 - Location: Islamabad, Pakistan (remote-ready)
@@ -140,7 +141,7 @@ Live projects include the DTS Gilgit-Baltistan government tourism licensing port
 Yes. He worked remotely with an international client at ValourAI, collaborating across time zones through code reviews, async standups and agile sprints. He is open to remote, freelance and full-time roles.
 
 ### How do I hire Shams Ullah Baig?
-Email shamsullahbaig999@gmail.com, message him on WhatsApp at +92 317 929 2371, connect on LinkedIn, or follow him on X. His code is on GitHub.
+Email shamsullahbaig999@gmail.com, message him on WhatsApp at +92 317 929 2371, connect on LinkedIn, or follow him on X and Instagram. His code is on GitHub.
 
 ## Service: Full-Stack Web Development
 URL: https://shamsullah01.github.io/hire-full-stack-developer/

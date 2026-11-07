@@ -18,6 +18,7 @@ WHATSAPP = "https://wa.me/923179292371"
 LINKEDIN = "https://www.linkedin.com/in/shams-ullah-baig-8312a018b/"
 GITHUB = "https://github.com/shamsullah01"
 X_URL = "https://x.com/Shamsullah999"
+INSTAGRAM = "https://www.instagram.com/shams_ullah01/"
 
 # --------------------------------------------------------------------------------------
 # Projects. Keep claims factual: only what the CV states or the live site shows.
@@ -456,6 +457,7 @@ def footer():
         <li><a href="{LINKEDIN}" target="_blank" rel="noopener">LinkedIn</a></li>
         <li><a href="{GITHUB}" target="_blank" rel="noopener">GitHub</a></li>
         <li><a href="{X_URL}" target="_blank" rel="noopener">X (Twitter)</a></li>
+        <li><a href="{INSTAGRAM}" target="_blank" rel="noopener">Instagram</a></li>
       </ul>
     </div>
   </div>
@@ -749,7 +751,7 @@ def about_page():
                 "alumniOf": {"@type": "CollegeOrUniversity", "name": "SZABIST University, Islamabad"},
                 "address": {"@type": "PostalAddress", "addressLocality": "Islamabad", "addressCountry": "PK"},
                 "knowsLanguage": ["English", "Urdu", "Shina"],
-                "sameAs": [GITHUB, LINKEDIN, X_URL],
+                "sameAs": [GITHUB, LINKEDIN, X_URL, INSTAGRAM],
             },
             {
                 "@type": "FAQPage",
@@ -829,6 +831,7 @@ def about_page():
           <a href="{GITHUB}" target="_blank" rel="noopener me"><span>GitHub</span></a>
           <a href="{LINKEDIN}" target="_blank" rel="noopener me"><span>LinkedIn</span></a>
           <a href="{X_URL}" target="_blank" rel="noopener me"><span>X</span></a>
+          <a href="{INSTAGRAM}" target="_blank" rel="noopener me"><span>Instagram</span></a>
         </div>
       </div>
       <div class="box">
