@@ -42,7 +42,7 @@ He combines both skill sets: he builds the full-stack product and the AI layer o
 
 ## Experience
 
-- Web Developer, UXEL Foundation (Islamabad), 2025 to present: React and NestJS features across the DTS, PROMIS, IMS and POS platforms; payment-gateway integration; AWS deployment
+- Web Developer, uExel Foundation (Islamabad), 2025 to present: React and NestJS features across the DTS, PROMIS, IMS and POS platforms; payment-gateway integration; AWS deployment
 - Full-Stack Developer, ValourAI (remote, international client), 2022 to 2025: automated trading platform and AI agents; NestJS/Node.js API optimization
 - Frontend Developer, Execudea (Rawalpindi), 2021 to 2022: responsive UI and cross-browser fixes
 
