@@ -459,6 +459,7 @@ def footer():
   </div>
   <p class="copy">© SHAMS ULLAH BAIG · FULL-STACK DEVELOPER &amp; AI ENGINEER · ISLAMABAD</p>
 </footer>
+<script src="/assets/mail.js?v=1" defer></script>
 </body>
 </html>
 """
