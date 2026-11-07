@@ -519,12 +519,13 @@
   .card .info .tags span{font-size:10px;letter-spacing:.06em;color:#9fc9f5;border:1px solid rgba(159,201,245,.3);padding:2px 7px;border-radius:999px}
   .card .info .go{display:inline-block;margin-top:9px;font-size:11px;font-weight:700;letter-spacing:.14em;color:#fff}
 
-  .svc{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+  .svc{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
   .svc a{display:block;padding:18px 20px;border-radius:6px;background:rgba(11,22,38,.75);box-shadow:inset 0 0 0 1px var(--line);transition:.2s}
   .svc a:hover{box-shadow:inset 0 0 0 1px rgba(42,140,255,.55);transform:translateY(-2px)}
   .svc small{display:block;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
   .svc strong{display:block;font-family:Anton,Impact,sans-serif;font-weight:400;font-size:22px;letter-spacing:.03em;text-transform:uppercase;margin:2px 0}
   .svc span{font-size:12px;color:#9fc9f5}
+  @media (max-width:900px){.svc{grid-template-columns:1fr 1fr}}
   @media (max-width:640px){.svc{grid-template-columns:1fr}}
 
   /* ---------- FAQ ---------- */
@@ -791,6 +792,10 @@
   <div class="svc reveal">
     <a href="/hire-full-stack-developer/"><small>Service</small><strong>Hire a Full-Stack Developer</strong><span>React · Node.js · NestJS · SaaS · APIs</span></a>
     <a href="/ai-agent-development/"><small>Service</small><strong>AI Agents &amp; Chatbots</strong><span>LLM agents · lead capture · booking · AI automation</span></a>
+    <a href="/ai-chatbot-development/"><small>Service</small><strong>AI Chatbots &amp; ChatGPT</strong><span>Website chatbots · OpenAI &amp; Claude integration · RAG</span></a>
+    <a href="/hire-react-nextjs-developer/"><small>Service</small><strong>React &amp; Next.js Developer</strong><span>React · Next.js · MERN · Node.js · TypeScript</span></a>
+    <a href="/web-developer-islamabad/"><small>Local</small><strong>Web Developer in Islamabad</strong><span>Websites · web apps · POS · Islamabad &amp; Rawalpindi</span></a>
+    <a href="/about/"><small>Profile</small><strong>About Shams Ullah Baig</strong><span>Experience · skills · education · FAQ</span></a>
   </div>
 </section>
 
@@ -897,7 +902,7 @@
   </div>
 </section>
 
-<footer><nav class="foot-links"><a href="/about/">About Shams Ullah Baig</a> · <a href="/hire-full-stack-developer/">Hire a full-stack developer</a> · <a href="/ai-agent-development/">AI agents &amp; chatbots</a><br><a href="/projects/agentra-ai-agents/">Agentra</a> · <a href="/projects/dts-gilgit-baltistan-tourism-portal/">DTS GB</a> · <a href="/projects/promis-product-management-system/">PROMIS</a> · <a href="/projects/ims-ai-enterprise-platform/">IMS</a> · <a href="/projects/uxl-pos-point-of-sale/">UXL POS</a> · <a href="/projects/elham-asia-tour-operator-website/">Elham Asia</a> · <a href="/projects/evraah-ev-charger-locator/">EVRAAH</a></nav>© SHAMS ULLAH BAIG · FULL-STACK DEVELOPER &amp; AI ENGINEER · ISLAMABAD</footer>
+<footer><nav class="foot-links"><a href="/about/">About Shams Ullah Baig</a> · <a href="/hire-full-stack-developer/">Hire a full-stack developer</a> · <a href="/ai-agent-development/">AI agents &amp; chatbots</a> · <a href="/ai-chatbot-development/">AI chatbots &amp; ChatGPT</a> · <a href="/hire-react-nextjs-developer/">React &amp; Next.js developer</a> · <a href="/web-developer-islamabad/">Web developer in Islamabad</a><br><a href="/projects/agentra-ai-agents/">Agentra</a> · <a href="/projects/dts-gilgit-baltistan-tourism-portal/">DTS GB</a> · <a href="/projects/promis-product-management-system/">PROMIS</a> · <a href="/projects/ims-ai-enterprise-platform/">IMS</a> · <a href="/projects/uxl-pos-point-of-sale/">UXL POS</a> · <a href="/projects/elham-asia-tour-operator-website/">Elham Asia</a> · <a href="/projects/evraah-ev-charger-locator/">EVRAAH</a></nav>© SHAMS ULLAH BAIG · FULL-STACK DEVELOPER &amp; AI ENGINEER · ISLAMABAD</footer>
 
 <script>
 /* ---------- in-page links: smooth scroll, keep the URL clean (no #hash) ---------- */

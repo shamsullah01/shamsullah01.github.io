@@ -69,6 +69,9 @@ He combines both skill sets: he builds the full-stack product and the AI layer o
 - [About Shams Ullah Baig](https://shamsullah01.github.io/about/): who he is, experience, skills, education and FAQ
 - [Hire a Full-Stack Developer in Pakistan](https://shamsullah01.github.io/hire-full-stack-developer/): full-stack web development service
 - [AI Agents & Chatbots](https://shamsullah01.github.io/ai-agent-development/): AI engineering service
+- [AI Chatbot Development & ChatGPT Integration](https://shamsullah01.github.io/ai-chatbot-development/): chatbots trained on a business's documents, OpenAI/Claude integration
+- [Hire a React & Next.js Developer](https://shamsullah01.github.io/hire-react-nextjs-developer/): React, Next.js, MERN and Node.js development
+- [Web Developer in Islamabad & Rawalpindi](https://shamsullah01.github.io/web-developer-islamabad/): websites and web apps for local businesses
 - [Agentra case study](https://shamsullah01.github.io/projects/agentra-ai-agents/)
 - [DTS Gilgit-Baltistan case study](https://shamsullah01.github.io/projects/dts-gilgit-baltistan-tourism-portal/)
 - [PROMIS case study](https://shamsullah01.github.io/projects/promis-product-management-system/)

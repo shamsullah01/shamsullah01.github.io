@@ -69,6 +69,9 @@ He combines both skill sets: he builds the full-stack product and the AI layer o
 - [About Shams Ullah Baig](https://shamsullah01.github.io/about/): who he is, experience, skills, education and FAQ
 - [Hire a Full-Stack Developer in Pakistan](https://shamsullah01.github.io/hire-full-stack-developer/): full-stack web development service
 - [AI Agents & Chatbots](https://shamsullah01.github.io/ai-agent-development/): AI engineering service
+- [AI Chatbot Development & ChatGPT Integration](https://shamsullah01.github.io/ai-chatbot-development/): chatbots trained on a business's documents, OpenAI/Claude integration
+- [Hire a React & Next.js Developer](https://shamsullah01.github.io/hire-react-nextjs-developer/): React, Next.js, MERN and Node.js development
+- [Web Developer in Islamabad & Rawalpindi](https://shamsullah01.github.io/web-developer-islamabad/): websites and web apps for local businesses
 - [Agentra case study](https://shamsullah01.github.io/projects/agentra-ai-agents/)
 - [DTS Gilgit-Baltistan case study](https://shamsullah01.github.io/projects/dts-gilgit-baltistan-tourism-portal/)
 - [PROMIS case study](https://shamsullah01.github.io/projects/promis-product-management-system/)
@@ -180,8 +183,94 @@ A: Yes. I regularly debug, refactor and speed up existing React and Node.js code
 Q: Can you also add AI features?
 A: Yes. I'm also an AI engineer and can add AI agents, chatbots or AI data processing to the same product. See AI agent development.
 
+Q: How much does it cost to hire a full-stack developer?
+A: It depends on the size of the project. After a short free call I give you a fixed quote for a defined scope, or a monthly or hourly rate for ongoing work, so you know the cost before any code is written.
+
+Q: How long does it take to build a web application?
+A: A simple website usually takes one to two weeks. A custom web application with logins, dashboards and payments usually takes one to three months, delivered in working pieces every week or two so you see progress early.
+
+Q: What should I check before hiring a web developer?
+A: Look at live projects they have actually built, ask who owns the code and hosting accounts, agree the scope and price in writing, and make sure you get regular demos. All my projects are live and listed on this site, and you own the code and accounts.
+
 Q: How do I start?
 A: Email shamsullahbaig999@gmail.com or message me on WhatsApp with a short description of what you need, and I'll reply with next steps.
+
+## Service: Web Developer in Islamabad & Rawalpindi
+URL: https://shamsullah01.github.io/web-developer-islamabad/
+
+I'm a freelance web developer based in Islamabad. I build websites and web applications for businesses in Islamabad and Rawalpindi, and I'm happy to meet in person to plan your project.
+
+### What I build for local businesses
+- Business websites: Fast, mobile-friendly websites that show up on Google, like the Elham Asia tour operator site.
+- Custom web applications: Booking systems, customer portals and admin dashboards built around how your business works.
+- Point-of-sale & inventory: Sales, stock and invoicing for shops and multi-branch businesses, like UXL POS.
+- Online payments: Payment gateway integration so customers can pay online.
+- AI chatbots: A chatbot on your website that answers customer questions 24/7.
+- Fixes & improvements: Speeding up, fixing or redesigning an existing website or app.
+
+### How we'll work
+- Meet: A call or an in-person meeting in Islamabad or Rawalpindi to understand what you need.
+- Quote: A clear scope, timeline and fixed price before work starts.
+- Build: Regular demos so you can see and test the site as it is built.
+- Launch: Hosting, domain and Google setup, plus support after launch.
+
+Tech: React, Next.js, Node.js, NestJS, TypeScript, MongoDB, MySQL, PostgreSQL, AWS, Payment gateways
+
+### FAQ
+Q: Are you based in Islamabad?
+A: Yes. I live and work in Islamabad, Pakistan, and work with businesses across Islamabad and Rawalpindi. I can meet in person when it helps.
+
+Q: How much does a website cost in Islamabad?
+A: It depends on what the site needs to do. A simple business website costs much less than a custom web app with logins and payments. Tell me what you need and I'll give you a fixed quote after a short free call.
+
+Q: How long does it take to make a website?
+A: A simple business website usually takes one to two weeks. Larger web applications usually take one to three months.
+
+Q: Will my website show on Google?
+A: Yes. I build sites to be fast and search-friendly, set up Google Search Console and submit your sitemap, so Google can find and index your pages.
+
+Q: Do you also work with clients outside Islamabad?
+A: Yes. I work remotely with clients anywhere in Pakistan and abroad.
+
+Q: How do I contact you?
+A: Email shamsullahbaig999@gmail.com or message me on WhatsApp at +92 317 929 2371.
+
+## Service: React, Next.js & Node.js Development
+URL: https://shamsullah01.github.io/hire-react-nextjs-developer/
+
+I build fast, maintainable front ends in React, Next.js and TypeScript, backed by Node.js and NestJS APIs. 3+ years of production work on government, healthcare, SaaS and retail platforms.
+
+### What I can do for your team
+- React & Next.js front ends: Responsive interfaces with reusable components, built in TypeScript.
+- Node.js & NestJS back ends: REST APIs with authentication, validation and clean structure.
+- Full MERN stack: MongoDB, Express, React and Node.js, from database design to deployment.
+- Join your existing team: Pick up tickets in your codebase, follow your conventions and take part in code reviews.
+- Performance work: Faster page loads and API responses, as on ValourAI where APIs got about 35% faster.
+- Migrations & refactors: Moving older JavaScript code to TypeScript, React or Next.js step by step.
+
+### How we'll work
+- Intro call: We talk about your product, codebase and what you need from a developer.
+- Trial task: If you like, I start with a small, paid task so you can judge my work.
+- Regular delivery: Pull requests, demos and async updates that fit your team's process.
+- Long-term support: Ongoing development, maintenance and on-call fixes.
+
+Tech: React, Next.js, TypeScript, JavaScript, Node.js, NestJS, Express, MongoDB, PostgreSQL, MySQL, REST APIs, JWT, Git, AWS, Docker
+
+### FAQ
+Q: How many years of React experience do you have?
+A: I have used React professionally for over 3 years, at Execudea, at ValourAI with an international client, and at uExel Foundation on the DTS, PROMIS, IMS and UXL POS platforms.
+
+Q: Are you a MERN stack developer?
+A: Yes. I work across the MERN stack (MongoDB, Express, React, Node.js), and I also use NestJS, Next.js, TypeScript, MySQL and PostgreSQL.
+
+Q: Can you join our team remotely?
+A: Yes. I have worked in a remote team across time zones, using code reviews, async standups and agile sprints. I'm open to freelance, contract and full-time remote roles.
+
+Q: Do you write TypeScript?
+A: Yes. My recent React and NestJS work is written in TypeScript.
+
+Q: How do I hire you?
+A: Email shamsullahbaig999@gmail.com or message me on WhatsApp. You can also download my CV.
 
 ## Service: AI Agent & Chatbot Development
 URL: https://shamsullah01.github.io/ai-agent-development/
@@ -224,8 +313,53 @@ A: Yes. As a full-stack developer I can add AI features to an existing React/Nod
 Q: Do you work with clients outside Pakistan?
 A: Yes. I work remotely across time zones and am open to freelance, contract and full-time roles.
 
+Q: How much does it cost to build an AI agent or chatbot?
+A: It depends on how many tasks the agent handles and which systems it connects to. A chatbot that answers questions from your documents is the simplest; agents that book appointments or update your CRM take more work. You also pay the AI provider (such as OpenAI) per use, which is usually small. I give a fixed quote after a short free call.
+
+Q: How long does it take to build an AI chatbot?
+A: A chatbot that answers questions from your documents can often be live in one to two weeks. Agents with bookings and integrations usually take three to six weeks.
+
 Q: How do I start an AI project with you?
 A: Email shamsullahbaig999@gmail.com or message me on WhatsApp describing what you want the agent to do, and I'll suggest the simplest setup that works.
+
+## Service: AI Chatbot Development & ChatGPT Integration
+URL: https://shamsullah01.github.io/ai-chatbot-development/
+
+I build AI chatbots that answer your customers from your own documents, and I add ChatGPT-style features (OpenAI or Claude) to websites and apps you already have.
+
+### What I build
+- Website chatbot: A chat widget on your site that answers questions about your services, prices and policies, day and night.
+- Chatbot trained on your documents: Upload PDFs, FAQs and price lists; the bot answers only from them using RAG.
+- ChatGPT / OpenAI integration: Add AI features to your own app with the OpenAI or Claude API: summaries, drafting, search and Q&A.
+- Internal knowledge assistant: A private assistant that helps your team find answers in company documents.
+- Hand-off to a human: The bot passes the chat to a person, or collects contact details, when it can't help.
+
+### How we'll work
+- Pick the questions: We list what customers ask most and what the bot should never answer.
+- Add your content: Your documents become the bot's knowledge, kept up to date as they change.
+- Test on real questions: We try the bot with real customer questions and fix weak answers before launch.
+- Launch & review: Go live on your site or app and review conversations to keep improving it.
+
+Tech: OpenAI, ChatGPT API, Claude, LangChain, LlamaIndex, RAG, Pinecone, FAISS, Chroma, Python, Node.js, React, Next.js
+
+### FAQ
+Q: Can you build a chatbot like ChatGPT for my business?
+A: Yes. I build chatbots on the same models behind ChatGPT (OpenAI) or on Claude, trained on your business's own information so the answers are about your services, not general knowledge.
+
+Q: Can you add ChatGPT to my existing website or app?
+A: Yes. I integrate the OpenAI or Claude API into existing websites and React, Node.js or NestJS applications.
+
+Q: Will the chatbot give wrong answers?
+A: The bot is set up to answer only from your documents and to say it doesn't know, or hand over to a person, when the answer isn't there.
+
+Q: How much does an AI chatbot cost?
+A: A chatbot that answers from your documents is the simplest and quickest to build. Cost grows with integrations such as bookings or CRM updates. AI usage fees are paid to the provider and are usually small. I give a fixed quote after a short free call.
+
+Q: Is my data safe?
+A: Your documents are used only to answer questions for your business. I use the providers' business APIs and can keep data in your own cloud account.
+
+Q: How do I get started?
+A: Email shamsullahbaig999@gmail.com or message me on WhatsApp with what you want the chatbot to do.
 
 ## Project: Agentra by Valour AI
 Case study: https://shamsullah01.github.io/projects/agentra-ai-agents/

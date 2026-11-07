@@ -320,9 +320,83 @@ SERVICES = [
             ("Do you work remotely with clients outside Pakistan?", "Yes. I have worked remotely with an international client across time zones, using code reviews, async standups and agile sprints. I'm available for remote, freelance and full-time roles."),
             ("Can you take over or improve an existing app?", "Yes. I regularly debug, refactor and speed up existing React and Node.js codebases, fix cross-browser issues and harden security."),
             ("Can you also add AI features?", f"Yes. I'm also an AI engineer and can add AI agents, chatbots or AI data processing to the same product. See <a href=\"/ai-agent-development/\">AI agent development</a>."),
+            ("How much does it cost to hire a full-stack developer?", "It depends on the size of the project. After a short free call I give you a fixed quote for a defined scope, or a monthly or hourly rate for ongoing work, so you know the cost before any code is written."),
+            ("How long does it take to build a web application?", "A simple website usually takes one to two weeks. A custom web application with logins, dashboards and payments usually takes one to three months, delivered in working pieces every week or two so you see progress early."),
+            ("What should I check before hiring a web developer?", "Look at live projects they have actually built, ask who owns the code and hosting accounts, agree the scope and price in writing, and make sure you get regular demos. All my projects are live and listed on this site, and you own the code and accounts."),
             ("How do I start?", f"Email <a href=\"mailto:{EMAIL}\">{EMAIL}</a> or message me on <a href=\"{WHATSAPP}\">WhatsApp</a> with a short description of what you need, and I'll reply with next steps."),
         ],
         "service_type": "Full-stack web development",
+    },
+    {
+        "slug": "web-developer-islamabad",
+        "nav": "Islamabad",
+        "name": "Web Developer in Islamabad & Rawalpindi",
+        "title": "Web Developer in Islamabad & Rawalpindi | Shams Ullah Baig",
+        "desc": "Looking for a web developer in Islamabad or Rawalpindi? Shams Ullah Baig builds websites, web apps, online portals and point-of-sale systems for local businesses, with React, Node.js and NestJS.",
+        "eyebrow": "Service · Islamabad & Rawalpindi",
+        "h1": "Web Developer in Islamabad & Rawalpindi",
+        "lead": "I'm a freelance web developer based in Islamabad. I build websites and web applications for businesses in Islamabad and Rawalpindi, and I'm happy to meet in person to plan your project.",
+        "offer_title": "What I build for local businesses",
+        "offer": [
+            ("Business websites", "Fast, mobile-friendly websites that show up on Google, like the Elham Asia tour operator site."),
+            ("Custom web applications", "Booking systems, customer portals and admin dashboards built around how your business works."),
+            ("Point-of-sale & inventory", "Sales, stock and invoicing for shops and multi-branch businesses, like UXL POS."),
+            ("Online payments", "Payment gateway integration so customers can pay online."),
+            ("AI chatbots", "A chatbot on your website that answers customer questions 24/7."),
+            ("Fixes & improvements", "Speeding up, fixing or redesigning an existing website or app."),
+        ],
+        "stack": ["React", "Next.js", "Node.js", "NestJS", "TypeScript", "MongoDB", "MySQL", "PostgreSQL", "AWS", "Payment gateways"],
+        "process": [
+            ("Meet", "A call or an in-person meeting in Islamabad or Rawalpindi to understand what you need."),
+            ("Quote", "A clear scope, timeline and fixed price before work starts."),
+            ("Build", "Regular demos so you can see and test the site as it is built."),
+            ("Launch", "Hosting, domain and Google setup, plus support after launch."),
+        ],
+        "projects": ["elham-asia-tour-operator-website", "uxl-pos-point-of-sale", "dts-gilgit-baltistan-tourism-portal", "evraah-ev-charger-locator"],
+        "faq": [
+            ("Are you based in Islamabad?", "Yes. I live and work in Islamabad, Pakistan, and work with businesses across Islamabad and Rawalpindi. I can meet in person when it helps."),
+            ("How much does a website cost in Islamabad?", "It depends on what the site needs to do. A simple business website costs much less than a custom web app with logins and payments. Tell me what you need and I'll give you a fixed quote after a short free call."),
+            ("How long does it take to make a website?", "A simple business website usually takes one to two weeks. Larger web applications usually take one to three months."),
+            ("Will my website show on Google?", "Yes. I build sites to be fast and search-friendly, set up Google Search Console and submit your sitemap, so Google can find and index your pages."),
+            ("Do you also work with clients outside Islamabad?", "Yes. I work remotely with clients anywhere in Pakistan and abroad."),
+            ("How do I contact you?", f"Email <a href=\"mailto:{EMAIL}\">{EMAIL}</a> or message me on <a href=\"{WHATSAPP}\">WhatsApp</a> at +92 317 929 2371."),
+        ],
+        "service_type": "Website and web application development",
+    },
+    {
+        "slug": "hire-react-nextjs-developer",
+        "nav": "React",
+        "name": "React, Next.js & Node.js Development",
+        "title": "Hire a React & Next.js Developer (MERN, Node.js) | Shams Ullah Baig",
+        "desc": "Hire Shams Ullah Baig, a React, Next.js and Node.js developer with 3+ years of production experience: MERN stack, NestJS APIs, TypeScript and AWS. Remote, freelance or full-time.",
+        "eyebrow": "Service · React & Node.js Developer",
+        "h1": "Hire a React & Next.js Developer",
+        "lead": "I build fast, maintainable front ends in React, Next.js and TypeScript, backed by Node.js and NestJS APIs. 3+ years of production work on government, healthcare, SaaS and retail platforms.",
+        "offer_title": "What I can do for your team",
+        "offer": [
+            ("React & Next.js front ends", "Responsive interfaces with reusable components, built in TypeScript."),
+            ("Node.js & NestJS back ends", "REST APIs with authentication, validation and clean structure."),
+            ("Full MERN stack", "MongoDB, Express, React and Node.js, from database design to deployment."),
+            ("Join your existing team", "Pick up tickets in your codebase, follow your conventions and take part in code reviews."),
+            ("Performance work", "Faster page loads and API responses, as on ValourAI where APIs got about 35% faster."),
+            ("Migrations & refactors", "Moving older JavaScript code to TypeScript, React or Next.js step by step."),
+        ],
+        "stack": ["React", "Next.js", "TypeScript", "JavaScript", "Node.js", "NestJS", "Express", "MongoDB", "PostgreSQL", "MySQL", "REST APIs", "JWT", "Git", "AWS", "Docker"],
+        "process": [
+            ("Intro call", "We talk about your product, codebase and what you need from a developer."),
+            ("Trial task", "If you like, I start with a small, paid task so you can judge my work."),
+            ("Regular delivery", "Pull requests, demos and async updates that fit your team's process."),
+            ("Long-term support", "Ongoing development, maintenance and on-call fixes."),
+        ],
+        "projects": ["promis-product-management-system", "uxl-pos-point-of-sale", "agentra-ai-agents", "dts-gilgit-baltistan-tourism-portal"],
+        "faq": [
+            ("How many years of React experience do you have?", "I have used React professionally for over 3 years, at Execudea, at ValourAI with an international client, and at uExel Foundation on the DTS, PROMIS, IMS and UXL POS platforms."),
+            ("Are you a MERN stack developer?", "Yes. I work across the MERN stack (MongoDB, Express, React, Node.js), and I also use NestJS, Next.js, TypeScript, MySQL and PostgreSQL."),
+            ("Can you join our team remotely?", "Yes. I have worked in a remote team across time zones, using code reviews, async standups and agile sprints. I'm open to freelance, contract and full-time remote roles."),
+            ("Do you write TypeScript?", "Yes. My recent React and NestJS work is written in TypeScript."),
+            ("How do I hire you?", f"Email <a href=\"mailto:{EMAIL}\">{EMAIL}</a> or message me on <a href=\"{WHATSAPP}\">WhatsApp</a>. You can also <a href=\"/assets/Shams_Ullah_Baig_CV.pdf\">download my CV</a>."),
+        ],
+        "service_type": "React, Next.js and Node.js development",
     },
     {
         "slug": "ai-agent-development",
@@ -358,9 +432,46 @@ SERVICES = [
             ("Will the agent make things up?", "The agent is grounded in your own documents and set up to say it doesn't know, or hand off to a person, when a question is outside that material."),
             ("Can you add AI to software we already have?", "Yes. As a full-stack developer I can add AI features to an existing React/Node.js or NestJS application, for example AI data processing like the IMS platform, where it reduced manual entry by about 30%."),
             ("Do you work with clients outside Pakistan?", "Yes. I work remotely across time zones and am open to freelance, contract and full-time roles."),
+            ("How much does it cost to build an AI agent or chatbot?", "It depends on how many tasks the agent handles and which systems it connects to. A chatbot that answers questions from your documents is the simplest; agents that book appointments or update your CRM take more work. You also pay the AI provider (such as OpenAI) per use, which is usually small. I give a fixed quote after a short free call."),
+            ("How long does it take to build an AI chatbot?", "A chatbot that answers questions from your documents can often be live in one to two weeks. Agents with bookings and integrations usually take three to six weeks."),
             ("How do I start an AI project with you?", f"Email <a href=\"mailto:{EMAIL}\">{EMAIL}</a> or message me on <a href=\"{WHATSAPP}\">WhatsApp</a> describing what you want the agent to do, and I'll suggest the simplest setup that works."),
         ],
         "service_type": "AI agent and chatbot development",
+    },
+    {
+        "slug": "ai-chatbot-development",
+        "nav": "Chatbots",
+        "name": "AI Chatbot Development & ChatGPT Integration",
+        "title": "AI Chatbot Development & ChatGPT Integration | Shams Ullah Baig",
+        "desc": "Get an AI chatbot for your website or app, trained on your own documents, or add ChatGPT, OpenAI and Claude features to your existing software. AI engineer Shams Ullah Baig, Islamabad, Pakistan.",
+        "eyebrow": "Service · AI Chatbots",
+        "h1": "AI Chatbots & ChatGPT Integration",
+        "lead": "I build AI chatbots that answer your customers from your own documents, and I add ChatGPT-style features (OpenAI or Claude) to websites and apps you already have.",
+        "offer_title": "What I build",
+        "offer": [
+            ("Website chatbot", "A chat widget on your site that answers questions about your services, prices and policies, day and night."),
+            ("Chatbot trained on your documents", "Upload PDFs, FAQs and price lists; the bot answers only from them using RAG."),
+            ("ChatGPT / OpenAI integration", "Add AI features to your own app with the OpenAI or Claude API: summaries, drafting, search and Q&A."),
+            ("Internal knowledge assistant", "A private assistant that helps your team find answers in company documents."),
+            ("Hand-off to a human", "The bot passes the chat to a person, or collects contact details, when it can't help."),
+        ],
+        "stack": ["OpenAI", "ChatGPT API", "Claude", "LangChain", "LlamaIndex", "RAG", "Pinecone", "FAISS", "Chroma", "Python", "Node.js", "React", "Next.js"],
+        "process": [
+            ("Pick the questions", "We list what customers ask most and what the bot should never answer."),
+            ("Add your content", "Your documents become the bot's knowledge, kept up to date as they change."),
+            ("Test on real questions", "We try the bot with real customer questions and fix weak answers before launch."),
+            ("Launch & review", "Go live on your site or app and review conversations to keep improving it."),
+        ],
+        "projects": ["agentra-ai-agents", "ims-ai-enterprise-platform"],
+        "faq": [
+            ("Can you build a chatbot like ChatGPT for my business?", "Yes. I build chatbots on the same models behind ChatGPT (OpenAI) or on Claude, trained on your business's own information so the answers are about your services, not general knowledge."),
+            ("Can you add ChatGPT to my existing website or app?", "Yes. I integrate the OpenAI or Claude API into existing websites and React, Node.js or NestJS applications."),
+            ("Will the chatbot give wrong answers?", "The bot is set up to answer only from your documents and to say it doesn't know, or hand over to a person, when the answer isn't there."),
+            ("How much does an AI chatbot cost?", "A chatbot that answers from your documents is the simplest and quickest to build. Cost grows with integrations such as bookings or CRM updates. AI usage fees are paid to the provider and are usually small. I give a fixed quote after a short free call."),
+            ("Is my data safe?", "Your documents are used only to answer questions for your business. I use the providers' business APIs and can keep data in your own cloud account."),
+            ("How do I get started?", f"Email <a href=\"mailto:{EMAIL}\">{EMAIL}</a> or message me on <a href=\"{WHATSAPP}\">WhatsApp</a> with what you want the chatbot to do."),
+        ],
+        "service_type": "AI chatbot development",
     },
 ]
 
@@ -431,6 +542,7 @@ def topbar(active=""):
 
 def footer():
     projects = "".join(f'<li><a href="/projects/{p["slug"]}/">{escape(p["short"])}</a></li>' for p in PROJECTS)
+    services = "".join(f'<li><a href="/{x["slug"]}/">{escape(x["name"])}</a></li>' for x in SERVICES)
     return f"""<footer>
   <div class="foot">
     <div>
@@ -440,8 +552,7 @@ def footer():
     <div>
       <h2>Services</h2>
       <ul>
-        <li><a href="/hire-full-stack-developer/">Hire a full-stack developer</a></li>
-        <li><a href="/ai-agent-development/">AI agents &amp; chatbots</a></li>
+{services}
         <li><a href="/about/">About Shams Ullah Baig</a></li>
       </ul>
     </div>
