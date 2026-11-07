@@ -7,7 +7,7 @@ GitHub Pages (Jekyll) ignores folders starting with "_", so this script is not p
 import json
 import os
 from datetime import date
-from html import escape
+from html import escape, unescape
 
 SITE = "https://shamsullah01.github.io"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -400,7 +400,7 @@ def head(title, desc, path, image, ld):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css?v=2">
+<link rel="stylesheet" href="/assets/site.css?v=3">
 <script type="application/ld+json">
 {json.dumps(ld, indent=2, ensure_ascii=False)}
 </script>
@@ -417,6 +417,7 @@ def topbar(active=""):
   <div class="topbar-in">
     <a class="brand" href="/"><img src="/assets/logo.png?v=2" alt="Shams Ullah Baig" width="36" height="36"><span>Shams Ullah Baig</span></a>
     <ul class="topnav">
+      {link("/about/", "About", "about")}
       {link("/#projects", "Projects", "projects")}
       {link("/hire-full-stack-developer/", "Full-Stack", "hire-full-stack-developer")}
       {link("/ai-agent-development/", "AI Agents", "ai-agent-development")}
@@ -440,6 +441,7 @@ def footer():
       <ul>
         <li><a href="/hire-full-stack-developer/">Hire a full-stack developer</a></li>
         <li><a href="/ai-agent-development/">AI agents &amp; chatbots</a></li>
+        <li><a href="/about/">About Shams Ullah Baig</a></li>
       </ul>
     </div>
     <div>
@@ -618,6 +620,8 @@ def service_page(s):
                 "areaServed": [{"@type": "Country", "name": "Pakistan"}, {"@type": "Place", "name": "Worldwide (remote)"}],
                 "availableChannel": {"@type": "ServiceChannel", "serviceUrl": f"{SITE}/#contact"},
             },
+            {"@type": "WebPage", "@id": f"{SITE}{path}#page", "url": f"{SITE}{path}", "name": s["title"],
+             "dateModified": TODAY, "about": {"@id": f"{SITE}{path}#service"}, "isPartOf": {"@id": f"{SITE}/#website"}},
             {
                 "@type": "FAQPage",
                 "mainEntity": [
@@ -696,6 +700,198 @@ def service_page(s):
     return write(path, head(s["title"], s["desc"], path, f"{SITE}/assets/og.jpg", ld) + body + footer())
 
 
+ABOUT_FAQ = [
+    ("Who is Shams Ullah Baig?",
+     "Shams Ullah Baig is a Full-Stack Developer and AI Engineer based in Islamabad, Pakistan. He has 3+ years of experience building web applications with React, Node.js and NestJS, and AI agents, chatbots and RAG systems with LangChain, OpenAI and Claude."),
+    ("Where does Shams Ullah Baig work?",
+     "He works as a Web Developer at uExel Foundation in Islamabad, building the DTS, PROMIS, IMS and UXL POS platforms. Before that he was a Full-Stack Developer at ValourAI, working remotely for an international client, and a Front-End Developer at Execudea in Rawalpindi."),
+    ("What does Shams Ullah Baig do?",
+     "He builds complete web applications, from database and REST API to React front end and AWS deployment, and adds AI features on top: AI agents that answer customers and book appointments, chatbots trained on a company's documents, and AI data processing."),
+    ("Where did Shams Ullah Baig study?",
+     "He holds a B.S. in Computer Science from SZABIST University, Islamabad (2021 to 2025)."),
+    ("Is Shams Ullah Baig available for hire?",
+     f"Yes. He is open to remote, freelance and full-time work. Contact him at <a href=\"mailto:{EMAIL}\">{EMAIL}</a> or on <a href=\"{WHATSAPP}\">WhatsApp</a>."),
+]
+
+EXPERIENCE = [
+    ("Web Developer", "uExel Foundation", "Islamabad, Pakistan", "Jun 2025 to present",
+     "React and NestJS features across four live platforms (DTS, PROMIS, IMS, UXL POS), payment-gateway integration and AWS deployment."),
+    ("Full-Stack Developer", "ValourAI", "Remote, international client", "Mar 2022 to Jan 2025",
+     "Automated trading platform from database design to deployed REST API, NestJS/Node.js API optimisation, and work on the Agentra AI agents product."),
+    ("Front-End Developer", "Execudea", "Rawalpindi, Pakistan", "Sep 2021 to Feb 2022",
+     "Responsive UI components with HTML, CSS and JavaScript, and cross-browser bug fixing."),
+]
+
+
+def about_page():
+    path = "/about/"
+    trail = [("Home", "/"), ("About", path)]
+    ld = {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "ProfilePage",
+                "@id": f"{SITE}{path}#page",
+                "url": f"{SITE}{path}",
+                "name": "About Shams Ullah Baig",
+                "dateModified": TODAY,
+                "mainEntity": {"@id": PERSON_ID},
+                "isPartOf": {"@id": f"{SITE}/#website"},
+            },
+            {
+                "@type": "Person",
+                "@id": PERSON_ID,
+                "name": "Shams Ullah Baig",
+                "url": f"{SITE}/",
+                "image": f"{SITE}/assets/shams.jpg",
+                "jobTitle": ["Full-Stack Developer", "AI Engineer"],
+                "worksFor": {"@type": "Organization", "name": "uExel Foundation"},
+                "alumniOf": {"@type": "CollegeOrUniversity", "name": "SZABIST University, Islamabad"},
+                "address": {"@type": "PostalAddress", "addressLocality": "Islamabad", "addressCountry": "PK"},
+                "sameAs": [GITHUB, LINKEDIN, X_URL],
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": strip_tags(a)}}
+                    for q, a in ABOUT_FAQ
+                ],
+            },
+            breadcrumb_ld(trail),
+        ],
+    }
+    jobs = "".join(
+        f'<div class="step offer"><strong>{escape(t)}, {escape(c)}</strong>'
+        f'<span>{escape(when)} · {escape(where)}<br>{escape(d)}</span></div>'
+        for t, c, where, when, d in EXPERIENCE)
+    faqs = "".join(
+        f'<details class="faq"{" open" if i == 0 else ""}><summary><h3>{escape(q)}</h3></summary><p>{a}</p></details>'
+        for i, (q, a) in enumerate(ABOUT_FAQ))
+    body = f"""{topbar("about")}
+<main>
+  {crumbs(trail)}
+  <section class="hero">
+    <span class="eyebrow">About</span>
+    <h1 class="title-font metal">Who is Shams Ullah Baig?</h1>
+    <p class="lead"><strong>Shams Ullah Baig is a Full-Stack Developer and AI Engineer in Islamabad, Pakistan.</strong> He has 3+ years of experience building web applications with React, Node.js and NestJS, and AI agents, chatbots and RAG systems with LangChain, OpenAI and Claude. He works at uExel Foundation and is available for remote, freelance and full-time work.</p>
+    <div class="cta-row">
+      <a class="btn primary" href="mailto:{EMAIL}">Email me</a>
+      <a class="btn ghost" href="/assets/Shams_Ullah_Baig_CV.pdf" download>Download CV</a>
+      <a class="btn ghost" href="/#projects">See projects</a>
+    </div>
+  </section>
+
+  <div class="grid">
+    <article class="content">
+      <h2>What I do</h2>
+      <p>I build complete web applications end to end: database design, REST APIs with authentication, responsive React and Next.js front ends, payment-gateway integration and deployment on AWS. On top of that I build the AI layer: AI agents that answer customers and book appointments, chatbots trained on a company's own documents, and AI data processing inside business systems.</p>
+      <p>My work has gone into government, healthcare, fintech, retail and tourism products, including a Gilgit-Baltistan government tourism portal, a diagnostics platform, a multi-tenant point-of-sale system and the Agentra AI agents platform.</p>
+
+      <h2>Experience</h2>
+      <div class="steps">{jobs}</div>
+
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Front end:</strong> React, Next.js, TypeScript, JavaScript, HTML, CSS</li>
+        <li><strong>Back end:</strong> Node.js, NestJS, Express, REST APIs, JWT authentication, payment gateways</li>
+        <li><strong>AI / LLM:</strong> OpenAI, Claude, LangChain, LlamaIndex, RAG, vector databases (Pinecone, FAISS, Chroma), AI agents, chatbots</li>
+        <li><strong>Databases:</strong> MongoDB, PostgreSQL, MySQL</li>
+        <li><strong>Cloud and tools:</strong> AWS (EC2, S3), Azure, Docker, Git, GitHub, CI/CD</li>
+      </ul>
+
+      <h2>Education</h2>
+      <p>B.S. Computer Science, SZABIST University, Islamabad (2021 to 2025).</p>
+
+      <h2>Selected projects</h2>
+      <div class="cards">{"".join(card(p) for p in PROJECTS[:6])}</div>
+
+      <h2>Questions about Shams Ullah Baig</h2>
+      {faqs}
+    </article>
+    <aside class="side">
+      <div class="box">
+        <h2>Quick facts</h2>
+        <dl class="facts">
+          <div><dt>Name</dt><dd>Shams Ullah Baig</dd></div>
+          <div><dt>Role</dt><dd>Full-Stack Developer &amp; AI Engineer</dd></div>
+          <div><dt>Location</dt><dd>Islamabad, Pakistan</dd></div>
+          <div><dt>Experience</dt><dd>3+ years</dd></div>
+          <div><dt>Current job</dt><dd>uExel Foundation</dd></div>
+          <div><dt>Education</dt><dd>B.S. CS, SZABIST</dd></div>
+          <div><dt>Work type</dt><dd>Remote · Freelance · Full-time</dd></div>
+        </dl>
+      </div>
+      <div class="box">
+        <h2>Find me online</h2>
+        <div class="chips">
+          <a href="{GITHUB}" target="_blank" rel="noopener me"><span>GitHub</span></a>
+          <a href="{LINKEDIN}" target="_blank" rel="noopener me"><span>LinkedIn</span></a>
+          <a href="{X_URL}" target="_blank" rel="noopener me"><span>X</span></a>
+        </div>
+      </div>
+      <div class="box">
+        <h2>Services</h2>
+        <p><a href="/hire-full-stack-developer/">Hire a full-stack developer</a><br><a href="/ai-agent-development/">AI agents &amp; chatbots</a></p>
+      </div>
+    </aside>
+  </div>
+</main>
+"""
+    title = "About Shams Ullah Baig | Full-Stack Developer & AI Engineer, Islamabad"
+    desc = ("Who is Shams Ullah Baig? A Full-Stack Developer and AI Engineer in Islamabad, Pakistan with 3+ years "
+            "building React, Node.js and NestJS apps and AI agents, chatbots and RAG systems.")
+    return write(path, head(title, desc, path, f"{SITE}/assets/og.jpg", ld) + body + footer())
+
+
+def homepage_faq():
+    import re
+    with open(os.path.join(ROOT, "index.html"), encoding="utf-8") as f:
+        html = f.read()
+    out = []
+    for m in re.finditer(r'<details class="faq[^"]*".*?<h3[^>]*>(.*?)</h3>.*?</summary>(.*?)</details>', html, re.S):
+        q = strip_tags(m.group(1)).strip()
+        a = re.sub(r"\s+", " ", strip_tags(m.group(2))).strip()
+        out.append((unescape(q), unescape(a)))
+    return out
+
+
+def llms_full():
+    """Plain-text dump of the whole site for AI crawlers, kept in sync with the pages."""
+    with open(os.path.join(ROOT, "llms.txt"), encoding="utf-8") as f:
+        base = f.read().rstrip()
+    t = lambda s: unescape(strip_tags(s))
+    parts = [base, "", "---", "", "# Full content", ""]
+    parts += ["## About Shams Ullah Baig", f"URL: {SITE}/about/", ""]
+    for q, a in ABOUT_FAQ:
+        parts += [f"### {q}", t(a), ""]
+    parts += ["### Experience"]
+    for ti, c, where, when, d in EXPERIENCE:
+        parts.append(f"- {ti}, {c} ({where}), {when}: {d}")
+    parts.append("")
+    parts += ["## Frequently asked questions (homepage)", f"URL: {SITE}/#faq", ""]
+    for q, a in homepage_faq():
+        parts += [f"### {q}", a, ""]
+    for s in SERVICES:
+        parts += [f"## Service: {s['name']}", f"URL: {SITE}/{s['slug']}/", "", s["lead"], "",
+                  f"### {s['offer_title']}"]
+        parts += [f"- {a}: {b}" for a, b in s["offer"]]
+        parts += ["", "### How we'll work"] + [f"- {a}: {b}" for a, b in s["process"]]
+        parts += ["", f"Tech: {', '.join(s['stack'])}", "", "### FAQ"]
+        for q, a in s["faq"]:
+            parts += [f"Q: {q}", f"A: {t(a)}", ""]
+    for p in PROJECTS:
+        parts += [f"## Project: {p['name']}", f"Case study: {SITE}/projects/{p['slug']}/", f"Live site: {p['url']}",
+                  f"Type: {p['kind']} · Client: {p['client']} · Role: {p['role']} · Industry: {p['industry']}",
+                  f"Tech: {', '.join(p['stack'])}", "", p["lead"], ""]
+        parts += p["overview"] + [""]
+        parts += ["What he built:"] + [f"- {x}" for x in p["built"]]
+        parts += ["Key features:"] + [f"- {x}" for x in p["features"]]
+        parts += ["Results:"] + [f"- {x}" for x in p["results"]] + [""]
+    parts.append(f"Last updated: {TODAY}")
+    with open(os.path.join(ROOT, "llms-full.txt"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join(parts) + "\n")
+
+
 def strip_tags(s):
     import re
     return re.sub(r"<[^>]+>", "", s)
@@ -708,8 +904,9 @@ def sitemap(paths):
 
 
 if __name__ == "__main__":
-    written = [project_page(p) for p in PROJECTS] + [service_page(s) for s in SERVICES]
+    written = [about_page()] + [project_page(p) for p in PROJECTS] + [service_page(s) for s in SERVICES]
     sitemap(written)
+    llms_full()
     for w in written:
         print("wrote", w)
     print("sitemap.xml:", len(written) + 1, "URLs")

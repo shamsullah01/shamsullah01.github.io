@@ -64,6 +64,7 @@ He combines both skill sets: he builds the full-stack product and the AI layer o
 
 ## Pages
 
+- [About Shams Ullah Baig](https://shamsullah01.github.io/about/): who he is, experience, skills, education and FAQ
 - [Hire a Full-Stack Developer in Pakistan](https://shamsullah01.github.io/hire-full-stack-developer/): full-stack web development service
 - [AI Agents & Chatbots](https://shamsullah01.github.io/ai-agent-development/): AI engineering service
 - [Agentra case study](https://shamsullah01.github.io/projects/agentra-ai-agents/)
@@ -76,5 +77,6 @@ He combines both skill sets: he builds the full-stack product and the AI layer o
 
 ## Optional
 
+- [Full site content for LLMs](https://shamsullah01.github.io/llms-full.txt)
 - [Portfolio FAQ](https://shamsullah01.github.io/#faq)
 - [CV (PDF)](https://shamsullah01.github.io/assets/Shams_Ullah_Baig_CV.pdf)
