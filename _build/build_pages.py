@@ -482,7 +482,7 @@ def breadcrumb_ld(items):
 
 def thumb(p):
     if p["shot"]:
-        return f'<img loading="lazy" src="/assets/shots/{p["shot"]}.jpg" alt="{escape(p["name"])} screenshot" width="1280" height="860">'
+        return f'<img loading="lazy" decoding="async" src="/assets/shots/{p["shot"]}.webp" alt="{escape(p["name"])} screenshot" width="1280" height="860">'
     return escape(p["short"])
 
 
@@ -534,7 +534,7 @@ def project_page(p):
     others = [q for q in PROJECTS if q["slug"] != p["slug"]][:3]
     service = "ai-agent-development" if p["tag"] in ("AI", "AI + ERP") else "hire-full-stack-developer"
     service_label = "AI agent development" if service == "ai-agent-development" else "full-stack development"
-    shot = (f'<img src="/assets/shots/{p["shot"]}.jpg" alt="Screenshot of {escape(p["name"])}, a {escape(p["kind"])} by Shams Ullah Baig" width="1280" height="860">'
+    shot = (f'<img fetchpriority="high" src="/assets/shots/{p["shot"]}.webp" alt="Screenshot of {escape(p["name"])}, a {escape(p["kind"])} by Shams Ullah Baig" width="1280" height="860">'
             if p["shot"] else f'<div class="ph">{escape(p["short"])}</div>')
     body = f"""{topbar("projects")}
 <main>

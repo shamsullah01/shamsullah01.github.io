@@ -201,6 +201,7 @@
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png?v=3">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=3">
 <link rel="manifest" href="/site.webmanifest">
+<link rel="preload" as="image" href="assets/hero-bg.webp?v=2" type="image/webp" fetchpriority="high">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700;900&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
@@ -293,7 +294,7 @@
     background:
       linear-gradient(90deg, rgba(3,6,10,.88) 0%, rgba(3,6,10,.62) 45%, rgba(3,6,10,.35) 100%),
       radial-gradient(700px 420px at 100% 0%, rgba(31,111,184,.30), transparent 70%),
-      url("assets/hero-bg.jpg?v=2") right center / cover no-repeat,
+      url("assets/hero-bg.webp?v=2") right center / cover no-repeat,
       #050608;
   }
   .hero{
@@ -326,7 +327,7 @@
     font-size:clamp(50px,8.4vw,112px);line-height:.95;letter-spacing:.01em;
     background:
       linear-gradient(rgba(255,255,255,.28),rgba(255,255,255,.28)),
-      url("assets/name-fill.jpg") center 38% / cover;
+      url("assets/name-fill.webp") center 38% / cover;
     -webkit-background-clip:text;background-clip:text;color:transparent;
     filter:drop-shadow(0 6px 26px rgba(0,0,0,.55));
   }
@@ -520,7 +521,7 @@
     .hero-name-big{font-size:clamp(40px,12.5vw,64px)}
     .logo{top:16px;left:16px}
     .logo img{width:38px;height:38px}
-    #start{background:linear-gradient(180deg, rgba(3,6,10,.6) 0%, rgba(3,6,10,.85) 70%), url("assets/hero-bg.jpg?v=2") 70% center / cover no-repeat, #050608}
+    #start{background:linear-gradient(180deg, rgba(3,6,10,.6) 0%, rgba(3,6,10,.85) 70%), url("assets/hero-bg.webp?v=2") 70% center / cover no-repeat, #050608}
     .hero{flex-direction:column;text-align:center}
     .dshape{margin-left:0;padding-left:30px;border-radius:999px}
     .hero-title{justify-content:center;align-items:center;flex-direction:column;gap:4px}
@@ -549,7 +550,7 @@
   <div>
     <div class="hero reveal">
       <div class="hero-left">
-        <div class="dshape"><img src="assets/shams.jpg" alt="Shams Ullah Baig"></div>
+        <div class="dshape"><img src="assets/shams.webp" alt="Shams Ullah Baig" width="896" height="1195" fetchpriority="high"></div>
       </div>
       <div>
         <div class="hero-title">
@@ -577,7 +578,7 @@
       <p>Hello, I am</p>
       <h2 class="title-font">Shams Ullah Baig</h2>
       <div class="portrait">
-        <img src="assets/shams.jpg" alt="Portrait of Shams Ullah Baig">
+        <img src="assets/shams.webp" alt="Portrait of Shams Ullah Baig" width="896" height="1195" loading="lazy" decoding="async">
         <canvas id="embers"></canvas>
       </div>
     </div>
@@ -636,7 +637,7 @@
   <div class="bento" id="bento">
     <a class="card reveal w2 h2" href="/projects/agentra-ai-agents/" style="--c1:#16365f;--c2:#05101d">
       <div class="label" aria-hidden="true">Agentra</div>
-      <img loading="lazy" width="1280" height="860" src="assets/shots/agentra.jpg" alt="Screenshot of Agentra · Valour AI, a project by Shams Ullah Baig">
+      <img loading="lazy" decoding="async" width="1280" height="860" src="assets/shots/agentra.webp" alt="Screenshot of Agentra · Valour AI, a project by Shams Ullah Baig">
       <div class="info">
         <h3>Agentra · Valour AI<em>AI</em></h3>
         <p>Custom AI agents trained on a business's own documents. They answer customers, screen leads and book appointments into the calendar around the clock.</p>
@@ -646,7 +647,7 @@
     </a>
     <a class="card reveal w2" href="/projects/evraah-ev-charger-locator/" style="--c1:#123e66;--c2:#03070d">
       <div class="label" aria-hidden="true">EVRAAH</div>
-      <img loading="lazy" width="1280" height="860" src="assets/shots/evraah.jpg" alt="Screenshot of EVRAAH, a project by Shams Ullah Baig">
+      <img loading="lazy" decoding="async" width="1280" height="860" src="assets/shots/evraah.webp" alt="Screenshot of EVRAAH, a project by Shams Ullah Baig">
       <div class="info">
         <h3>EVRAAH<em>Personal</em></h3>
         <p>My own product: Pakistan's EV charger locator and route planner. Find compatible stations, compare networks and plan charging stops.</p>
@@ -656,7 +657,7 @@
     </a>
     <a class="card reveal " href="/projects/dts-gilgit-baltistan-tourism-portal/" style="--c1:#1d4d2c;--c2:#04110a">
       <div class="label" aria-hidden="true">DTS</div>
-      <img loading="lazy" width="1280" height="860" src="assets/shots/dts.jpg" alt="Screenshot of DTS · GB, a project by Shams Ullah Baig">
+      <img loading="lazy" decoding="async" width="1280" height="860" src="assets/shots/dts.webp" alt="Screenshot of DTS · GB, a project by Shams Ullah Baig">
       <div class="info">
         <h3>DTS · GB<em>GovTech</em></h3>
         <p>Gilgit-Baltistan government tourism portal for licensing tour operators, hotels and guides, with online payments and mountaineering permits.</p>
@@ -666,7 +667,7 @@
     </a>
     <a class="card reveal " href="/projects/promis-product-management-system/" style="--c1:#0f4c5c;--c2:#04121a">
       <div class="label" aria-hidden="true">PROMIS</div>
-      <img loading="lazy" width="1280" height="860" src="assets/shots/promis.jpg" alt="Screenshot of PROMIS, a project by Shams Ullah Baig">
+      <img loading="lazy" decoding="async" width="1280" height="860" src="assets/shots/promis.webp" alt="Screenshot of PROMIS, a project by Shams Ullah Baig">
       <div class="info">
         <h3>PROMIS<em>HealthTech</em></h3>
         <p>Product Management Information System for a diagnostics company. I owned full modules across products, orders and clinical data.</p>
@@ -676,7 +677,7 @@
     </a>
     <a class="card reveal w2" href="/projects/elham-asia-tour-operator-website/" style="--c1:#5b3d10;--c2:#140c03">
       <div class="label" aria-hidden="true">Elham Asia</div>
-      <img loading="lazy" width="1280" height="860" src="assets/shots/elham.jpg" alt="Screenshot of Elham Asia, a project by Shams Ullah Baig">
+      <img loading="lazy" decoding="async" width="1280" height="860" src="assets/shots/elham.webp" alt="Screenshot of Elham Asia, a project by Shams Ullah Baig">
       <div class="info">
         <h3>Elham Asia<em>Travel</em></h3>
         <p>Site for a licensed Islamabad tour operator: K2 Base Camp treks, 8,000 m expeditions, festival tours and all-inclusive holidays.</p>
@@ -686,7 +687,7 @@
     </a>
     <a class="card reveal " href="/projects/uxl-pos-point-of-sale/" style="--c1:#5c1f2a;--c2:#14050a">
       <div class="label" aria-hidden="true">UXL POS</div>
-      <img loading="lazy" width="1280" height="860" src="assets/shots/pos.jpg" alt="Screenshot of UXL POS, a project by Shams Ullah Baig">
+      <img loading="lazy" decoding="async" width="1280" height="860" src="assets/shots/pos.webp" alt="Screenshot of UXL POS, a project by Shams Ullah Baig">
       <div class="info">
         <h3>UXL POS<em>SaaS</em></h3>
         <p>Multi-tenant point-of-sale system with real-time transactions, inventory, invoicing and a payment gateway.</p>
@@ -717,7 +718,7 @@
   <div class="contact-grid">
     <div class="contact-card reveal">
       <div>
-        <div class="avatar"><img src="assets/shams-avatar.jpg" alt="Shams Ullah Baig"></div>
+        <div class="avatar"><img src="assets/shams-avatar.webp" alt="Shams Ullah Baig" width="480" height="480" loading="lazy" decoding="async"></div>
         <div class="avatar-cap">Shams Ullah Baig<small>AI Engineer · Full-Stack</small></div>
       </div>
       <div>
