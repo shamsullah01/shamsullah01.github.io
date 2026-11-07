@@ -17,6 +17,7 @@ EMAIL = "shamsullahbaig999@gmail.com"
 WHATSAPP = "https://wa.me/923179292371"
 LINKEDIN = "https://www.linkedin.com/in/shams-ullah-baig-8312a018b/"
 GITHUB = "https://github.com/shamsullah01"
+X_URL = "https://x.com/Shamsullah999"
 
 # --------------------------------------------------------------------------------------
 # Projects. Keep claims factual: only what the CV states or the live site shows.
@@ -304,7 +305,7 @@ SERVICES = [
             ("Websites that convert", "Fast, responsive, SEO-ready sites, like Elham Asia."),
             ("Performance & security fixes", "Speeding up and hardening existing React/Node apps."),
         ],
-        "stack": ["React", "TypeScript", "JavaScript", "Node.js", "NestJS", "Express", "MongoDB", "MySQL", "REST APIs", "JWT", "AWS (EC2, S3)", "Git & CI/CD"],
+        "stack": ["React", "Next.js", "TypeScript", "JavaScript", "Node.js", "NestJS", "Express", "Python", "MongoDB", "PostgreSQL", "MySQL", "REST APIs", "JWT", "AWS (EC2, S3)", "Azure", "Docker", "Git & CI/CD"],
         "process": [
             ("Discover", "A short call to understand the goal, users and must-haves. You get a clear scope and estimate."),
             ("Design the system", "Data model, API plan and screens agreed before code, so there are no surprises."),
@@ -326,8 +327,8 @@ SERVICES = [
         "slug": "ai-agent-development",
         "nav": "AI Agents",
         "name": "AI Agent & Chatbot Development",
-        "title": "AI Engineer for AI Agents & Chatbots in Pakistan | Shams Ullah Baig",
-        "desc": "Shams Ullah Baig is an AI engineer in Islamabad, Pakistan who builds AI agents and chatbots trained on your documents to answer customers, qualify leads and book appointments, and adds AI automation to business software.",
+        "title": "AI Engineer for AI Agents, RAG & Chatbots in Pakistan | Shams Ullah Baig",
+        "desc": "Shams Ullah Baig is an AI engineer in Islamabad, Pakistan who builds LLM apps, RAG systems (LangChain, LlamaIndex, OpenAI, Claude) and AI agents and chatbots trained on your documents to answer customers, qualify leads and book appointments, and adds AI automation to business software.",
         "eyebrow": "Service · AI Engineer",
         "h1": "AI Agents & Chatbots for Your Business",
         "lead": "I'm an AI engineer who builds AI agents trained on your own documents. They answer customers, qualify leads and book appointments 24/7, and they plug into the software you already run.",
@@ -336,11 +337,12 @@ SERVICES = [
             ("Customer-service AI agents", "Agents that answer questions about your services, prices, hours and policies, trained on your own documents."),
             ("Lead qualification & booking", "Agents that screen prospects and book appointments directly into your calendar, like Agentra."),
             ("AI chatbots for websites", "On-brand chat widgets that hand off to a human when needed."),
+            ("RAG systems & document Q&A", "Retrieval-augmented generation with LangChain or LlamaIndex over vector databases (Pinecone, FAISS, Chroma), so answers come from your own data."),
             ("AI data processing", "Turning documents, forms and messages into structured data, which cut manual entry by about 30% on IMS."),
             ("AI inside your product", "LLM features added to an existing React/Node.js app: search, summaries, drafting and automation."),
             ("Workflow automation", "Connecting AI to your CRM, calendar, email and internal tools."),
         ],
-        "stack": ["LLMs", "AI Agents", "Prompt Engineering", "RAG / document Q&A", "Node.js", "NestJS", "React", "TypeScript", "REST APIs", "AWS"],
+        "stack": ["OpenAI", "Claude", "LangChain", "LlamaIndex", "RAG", "Pinecone", "FAISS", "Chroma", "AI Agents", "Prompt Engineering", "Python", "Node.js", "NestJS", "Next.js", "React", "TypeScript", "AWS", "Azure", "Docker"],
         "process": [
             ("Map the conversations", "We list the questions and tasks the agent should handle, and when it should hand over to a person."),
             ("Load your knowledge", "Your documents (price lists, hours, policies, FAQs) become the agent's source of truth."),
@@ -350,6 +352,7 @@ SERVICES = [
         "projects": ["agentra-ai-agents", "ims-ai-enterprise-platform", "evraah-ev-charger-locator"],
         "faq": [
             ("What does an AI engineer like you actually build?", "AI agents and chatbots that work on top of large language models, trained on a business's own information, plus the full-stack software around them: the chat interface, the API, integrations with calendars and CRMs, and deployment."),
+            ("Do you build RAG systems with LangChain or LlamaIndex?", "Yes. I build retrieval-augmented generation (RAG) pipelines with LangChain or LlamaIndex, store embeddings in vector databases such as Pinecone, FAISS or Chroma, and use OpenAI or Claude models, so the AI answers from your own documents."),
             ("Can the AI agent book appointments?", "Yes. On Agentra by Valour AI, agents check availability and book appointments directly into the business's calendar, alongside answering questions and capturing leads."),
             ("Will the agent make things up?", "The agent is grounded in your own documents and set up to say it doesn't know, or hand off to a person, when a question is outside that material."),
             ("Can you add AI to software we already have?", "Yes. As a full-stack developer I can add AI features to an existing React/Node.js or NestJS application, for example AI data processing like the IMS platform, where it reduced manual entry by about 30%."),
@@ -450,6 +453,7 @@ def footer():
         <li><a href="{WHATSAPP}" target="_blank" rel="noopener">WhatsApp +92 317 929 2371</a></li>
         <li><a href="{LINKEDIN}" target="_blank" rel="noopener">LinkedIn</a></li>
         <li><a href="{GITHUB}" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="{X_URL}" target="_blank" rel="noopener">X (Twitter)</a></li>
       </ul>
     </div>
   </div>
