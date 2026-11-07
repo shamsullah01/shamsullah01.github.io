@@ -1,6 +1,6 @@
 # Shams Ullah Baig: Full-Stack Developer & AI Engineer
 
-> Shams Ullah Baig is a Full-Stack Developer and AI Engineer based in Islamabad, Pakistan. He builds AI agents and chatbots, and full-stack web applications with React, Node.js, NestJS and TypeScript. He has 3+ years of experience delivering production software for government, healthcare, fintech, retail and tourism clients, and is available for remote, freelance and full-time work.
+> Shams Ullah Baig (also known as Shams Ullah or Shams Baig; GitHub: shamsullah01) is a Full-Stack Developer and AI Engineer based in Islamabad, Pakistan. He builds AI agents and chatbots, and full-stack web applications with React, Node.js, NestJS and TypeScript. He has 3+ years of experience delivering production software for government, healthcare, fintech, retail and tourism clients, and is available for remote, freelance and full-time work.
 
 - Website: https://shamsullah01.github.io/
 - GitHub: https://github.com/shamsullah01
