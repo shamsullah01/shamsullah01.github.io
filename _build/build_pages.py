@@ -748,6 +748,7 @@ def about_page():
                 "worksFor": {"@type": "Organization", "name": "uExel Foundation"},
                 "alumniOf": {"@type": "CollegeOrUniversity", "name": "SZABIST University, Islamabad"},
                 "address": {"@type": "PostalAddress", "addressLocality": "Islamabad", "addressCountry": "PK"},
+                "knowsLanguage": ["English", "Urdu", "Shina"],
                 "sameAs": [GITHUB, LINKEDIN, X_URL],
             },
             {
@@ -818,6 +819,7 @@ def about_page():
           <div><dt>Experience</dt><dd>3+ years</dd></div>
           <div><dt>Current job</dt><dd>uExel Foundation</dd></div>
           <div><dt>Education</dt><dd>B.S. CS, SZABIST</dd></div>
+          <div><dt>Languages</dt><dd>English, Urdu, Shina</dd></div>
           <div><dt>Work type</dt><dd>Remote · Freelance · Full-time</dd></div>
         </dl>
       </div>
