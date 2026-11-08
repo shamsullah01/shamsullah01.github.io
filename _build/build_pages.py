@@ -6,12 +6,13 @@ GitHub Pages (Jekyll) ignores folders starting with "_", so this script is not p
 """
 import json
 import os
-from datetime import date
+from datetime import date, datetime, timedelta, timezone
 from html import escape, unescape
 
 SITE = "https://shamsullah01.github.io"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TODAY = date.today().isoformat()
+NOW = datetime.now(timezone(timedelta(hours=5))).replace(microsecond=0).isoformat()  # Google wants full datetime with timezone (PKT)
 PERSON_ID = f"{SITE}/#person"
 EMAIL = "shamsullahbaig999@gmail.com"
 WHATSAPP = "https://wa.me/923179292371"
@@ -646,7 +647,7 @@ def project_page(p):
                 "keywords": ", ".join(p["stack"]),
                 "creator": {"@id": PERSON_ID, "@type": "Person", "name": "Shams Ullah Baig", "url": f"{SITE}/"},
                 "sameAs": p["url"],
-                "dateModified": TODAY,
+                "dateModified": NOW,
             },
             breadcrumb_ld(trail),
         ],
@@ -734,7 +735,7 @@ def service_page(s):
                 "availableChannel": {"@type": "ServiceChannel", "serviceUrl": f"{SITE}/#contact"},
             },
             {"@type": "WebPage", "@id": f"{SITE}{path}#page", "url": f"{SITE}{path}", "name": s["title"],
-             "dateModified": TODAY, "about": {"@id": f"{SITE}{path}#service"}, "isPartOf": {"@id": f"{SITE}/#website"}},
+             "dateModified": NOW, "about": {"@id": f"{SITE}{path}#service"}, "isPartOf": {"@id": f"{SITE}/#website"}},
             {
                 "@type": "FAQPage",
                 "mainEntity": [
@@ -847,7 +848,7 @@ def about_page():
                 "@id": f"{SITE}{path}#page",
                 "url": f"{SITE}{path}",
                 "name": "About Shams Ullah Baig",
-                "dateModified": TODAY,
+                "dateModified": NOW,
                 "mainEntity": {"@id": PERSON_ID},
                 "isPartOf": {"@id": f"{SITE}/#website"},
             },
