@@ -2,7 +2,7 @@
 
 > Shams Ullah Baig (also known as Shams Ullah or Shams Baig; GitHub: shamsullah01) is a Full-Stack Developer and AI Engineer based in Islamabad, Pakistan. He builds AI agents and chatbots, and full-stack web applications with React, Node.js, NestJS and TypeScript. He has 3+ years of experience delivering production software for government, healthcare, fintech, retail and tourism clients, and is available for remote, freelance and full-time work.
 
-- Website: https://shamsullah01.github.io/
+- Website: https://shamsullahbaig.valour.ai/
 - GitHub: https://github.com/shamsullah01
 - LinkedIn: https://www.linkedin.com/in/shams-ullah-baig-8312a018b/
 - X (Twitter): https://x.com/Shamsullah999
@@ -66,22 +66,22 @@ He combines both skill sets: he builds the full-stack product and the AI layer o
 
 ## Pages
 
-- [About Shams Ullah Baig](https://shamsullah01.github.io/about/): who he is, experience, skills, education and FAQ
-- [Hire a Full-Stack Developer in Pakistan](https://shamsullah01.github.io/hire-full-stack-developer/): full-stack web development service
-- [AI Agents & Chatbots](https://shamsullah01.github.io/ai-agent-development/): AI engineering service
-- [AI Chatbot Development & ChatGPT Integration](https://shamsullah01.github.io/ai-chatbot-development/): chatbots trained on a business's documents, OpenAI/Claude integration
-- [Hire a React & Next.js Developer](https://shamsullah01.github.io/hire-react-nextjs-developer/): React, Next.js, MERN and Node.js development
-- [Web Developer in Islamabad & Rawalpindi](https://shamsullah01.github.io/web-developer-islamabad/): websites and web apps for local businesses
-- [Agentra case study](https://shamsullah01.github.io/projects/agentra-ai-agents/)
-- [DTS Gilgit-Baltistan case study](https://shamsullah01.github.io/projects/dts-gilgit-baltistan-tourism-portal/)
-- [PROMIS case study](https://shamsullah01.github.io/projects/promis-product-management-system/)
-- [IMS case study](https://shamsullah01.github.io/projects/ims-ai-enterprise-platform/)
-- [UXL POS case study](https://shamsullah01.github.io/projects/uxl-pos-point-of-sale/)
-- [Elham Asia case study](https://shamsullah01.github.io/projects/elham-asia-tour-operator-website/)
-- [EVRAAH case study](https://shamsullah01.github.io/projects/evraah-ev-charger-locator/)
+- [About Shams Ullah Baig](https://shamsullahbaig.valour.ai/about/): who he is, experience, skills, education and FAQ
+- [Hire a Full-Stack Developer in Pakistan](https://shamsullahbaig.valour.ai/hire-full-stack-developer/): full-stack web development service
+- [AI Agents & Chatbots](https://shamsullahbaig.valour.ai/ai-agent-development/): AI engineering service
+- [AI Chatbot Development & ChatGPT Integration](https://shamsullahbaig.valour.ai/ai-chatbot-development/): chatbots trained on a business's documents, OpenAI/Claude integration
+- [Hire a React & Next.js Developer](https://shamsullahbaig.valour.ai/hire-react-nextjs-developer/): React, Next.js, MERN and Node.js development
+- [Web Developer in Islamabad & Rawalpindi](https://shamsullahbaig.valour.ai/web-developer-islamabad/): websites and web apps for local businesses
+- [Agentra case study](https://shamsullahbaig.valour.ai/projects/agentra-ai-agents/)
+- [DTS Gilgit-Baltistan case study](https://shamsullahbaig.valour.ai/projects/dts-gilgit-baltistan-tourism-portal/)
+- [PROMIS case study](https://shamsullahbaig.valour.ai/projects/promis-product-management-system/)
+- [IMS case study](https://shamsullahbaig.valour.ai/projects/ims-ai-enterprise-platform/)
+- [UXL POS case study](https://shamsullahbaig.valour.ai/projects/uxl-pos-point-of-sale/)
+- [Elham Asia case study](https://shamsullahbaig.valour.ai/projects/elham-asia-tour-operator-website/)
+- [EVRAAH case study](https://shamsullahbaig.valour.ai/projects/evraah-ev-charger-locator/)
 
 ## Optional
 
-- [Full site content for LLMs](https://shamsullah01.github.io/llms-full.txt)
-- [Portfolio FAQ](https://shamsullah01.github.io/#faq)
-- [CV (PDF)](https://shamsullah01.github.io/assets/Shams_Ullah_Baig_CV.pdf)
+- [Full site content for LLMs](https://shamsullahbaig.valour.ai/llms-full.txt)
+- [Portfolio FAQ](https://shamsullahbaig.valour.ai/#faq)
+- [CV (PDF)](https://shamsullahbaig.valour.ai/assets/Shams_Ullah_Baig_CV.pdf)

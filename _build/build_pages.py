@@ -1,4 +1,4 @@
-"""Generate project case-study pages and service pages for shamsullah01.github.io.
+"""Generate project case-study pages and service pages for shamsullahbaig.valour.ai.
 
 Run from the repo root:   python _build/build_pages.py
 Edit the PROJECTS / SERVICES data below, re-run, commit and push.
@@ -9,7 +9,7 @@ import os
 from datetime import date, datetime, timedelta, timezone
 from html import escape, unescape
 
-SITE = "https://shamsullah01.github.io"
+SITE = "https://shamsullahbaig.valour.ai"
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TODAY = date.today().isoformat()
 NOW = datetime.now(timezone(timedelta(hours=5))).replace(microsecond=0).isoformat()  # Google wants full datetime with timezone (PKT)

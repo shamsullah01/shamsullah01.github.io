@@ -2,7 +2,7 @@
 
 > Shams Ullah Baig (also known as Shams Ullah or Shams Baig; GitHub: shamsullah01) is a Full-Stack Developer and AI Engineer based in Islamabad, Pakistan. He builds AI agents and chatbots, and full-stack web applications with React, Node.js, NestJS and TypeScript. He has 3+ years of experience delivering production software for government, healthcare, fintech, retail and tourism clients, and is available for remote, freelance and full-time work.
 
-- Website: https://shamsullah01.github.io/
+- Website: https://shamsullahbaig.valour.ai/
 - GitHub: https://github.com/shamsullah01
 - LinkedIn: https://www.linkedin.com/in/shams-ullah-baig-8312a018b/
 - X (Twitter): https://x.com/Shamsullah999
@@ -66,32 +66,32 @@ He combines both skill sets: he builds the full-stack product and the AI layer o
 
 ## Pages
 
-- [About Shams Ullah Baig](https://shamsullah01.github.io/about/): who he is, experience, skills, education and FAQ
-- [Hire a Full-Stack Developer in Pakistan](https://shamsullah01.github.io/hire-full-stack-developer/): full-stack web development service
-- [AI Agents & Chatbots](https://shamsullah01.github.io/ai-agent-development/): AI engineering service
-- [AI Chatbot Development & ChatGPT Integration](https://shamsullah01.github.io/ai-chatbot-development/): chatbots trained on a business's documents, OpenAI/Claude integration
-- [Hire a React & Next.js Developer](https://shamsullah01.github.io/hire-react-nextjs-developer/): React, Next.js, MERN and Node.js development
-- [Web Developer in Islamabad & Rawalpindi](https://shamsullah01.github.io/web-developer-islamabad/): websites and web apps for local businesses
-- [Agentra case study](https://shamsullah01.github.io/projects/agentra-ai-agents/)
-- [DTS Gilgit-Baltistan case study](https://shamsullah01.github.io/projects/dts-gilgit-baltistan-tourism-portal/)
-- [PROMIS case study](https://shamsullah01.github.io/projects/promis-product-management-system/)
-- [IMS case study](https://shamsullah01.github.io/projects/ims-ai-enterprise-platform/)
-- [UXL POS case study](https://shamsullah01.github.io/projects/uxl-pos-point-of-sale/)
-- [Elham Asia case study](https://shamsullah01.github.io/projects/elham-asia-tour-operator-website/)
-- [EVRAAH case study](https://shamsullah01.github.io/projects/evraah-ev-charger-locator/)
+- [About Shams Ullah Baig](https://shamsullahbaig.valour.ai/about/): who he is, experience, skills, education and FAQ
+- [Hire a Full-Stack Developer in Pakistan](https://shamsullahbaig.valour.ai/hire-full-stack-developer/): full-stack web development service
+- [AI Agents & Chatbots](https://shamsullahbaig.valour.ai/ai-agent-development/): AI engineering service
+- [AI Chatbot Development & ChatGPT Integration](https://shamsullahbaig.valour.ai/ai-chatbot-development/): chatbots trained on a business's documents, OpenAI/Claude integration
+- [Hire a React & Next.js Developer](https://shamsullahbaig.valour.ai/hire-react-nextjs-developer/): React, Next.js, MERN and Node.js development
+- [Web Developer in Islamabad & Rawalpindi](https://shamsullahbaig.valour.ai/web-developer-islamabad/): websites and web apps for local businesses
+- [Agentra case study](https://shamsullahbaig.valour.ai/projects/agentra-ai-agents/)
+- [DTS Gilgit-Baltistan case study](https://shamsullahbaig.valour.ai/projects/dts-gilgit-baltistan-tourism-portal/)
+- [PROMIS case study](https://shamsullahbaig.valour.ai/projects/promis-product-management-system/)
+- [IMS case study](https://shamsullahbaig.valour.ai/projects/ims-ai-enterprise-platform/)
+- [UXL POS case study](https://shamsullahbaig.valour.ai/projects/uxl-pos-point-of-sale/)
+- [Elham Asia case study](https://shamsullahbaig.valour.ai/projects/elham-asia-tour-operator-website/)
+- [EVRAAH case study](https://shamsullahbaig.valour.ai/projects/evraah-ev-charger-locator/)
 
 ## Optional
 
-- [Full site content for LLMs](https://shamsullah01.github.io/llms-full.txt)
-- [Portfolio FAQ](https://shamsullah01.github.io/#faq)
-- [CV (PDF)](https://shamsullah01.github.io/assets/Shams_Ullah_Baig_CV.pdf)
+- [Full site content for LLMs](https://shamsullahbaig.valour.ai/llms-full.txt)
+- [Portfolio FAQ](https://shamsullahbaig.valour.ai/#faq)
+- [CV (PDF)](https://shamsullahbaig.valour.ai/assets/Shams_Ullah_Baig_CV.pdf)
 
 ---
 
 # Full content
 
 ## About Shams Ullah Baig
-URL: https://shamsullah01.github.io/about/
+URL: https://shamsullahbaig.valour.ai/about/
 
 ### Who is Shams Ullah Baig?
 Shams Ullah Baig is a Full-Stack Developer and AI Engineer based in Islamabad, Pakistan. He has 3+ years of experience building web applications with React, Node.js and NestJS, and AI agents, chatbots and RAG systems with LangChain, OpenAI and Claude.
@@ -114,7 +114,7 @@ Yes. He is open to remote, freelance and full-time work. Contact him at shamsull
 - Front-End Developer, Execudea (Rawalpindi, Pakistan), Sep 2021 to Feb 2022: Responsive UI components with HTML, CSS and JavaScript, and cross-browser bug fixing.
 
 ## Frequently asked questions (homepage)
-URL: https://shamsullah01.github.io/#faq
+URL: https://shamsullahbaig.valour.ai/#faq
 
 ### Who is Shams Ullah Baig?
 Shams Ullah Baig is an AI Engineer and Full-Stack Developer based in Islamabad, Pakistan. He has 3+ years of experience building web applications and AI agents for clients in government, healthcare, fintech, retail and tourism. He holds a B.S. in Computer Science from SZABIST University, Islamabad.
@@ -147,7 +147,7 @@ Yes. He worked remotely with an international client at ValourAI, collaborating 
 Email shamsullahbaig999@gmail.com, message him on WhatsApp at +92 317 929 2371, connect on LinkedIn, or follow him on X and Instagram. His code is on GitHub.
 
 ## Service: Full-Stack Web Development
-URL: https://shamsullah01.github.io/hire-full-stack-developer/
+URL: https://shamsullahbaig.valour.ai/hire-full-stack-developer/
 
 I build complete web applications end to end, from database and API to a fast React front end and cloud deployment. 3+ years shipping production systems for government, healthcare, SaaS and retail clients. Available remotely worldwide.
 
@@ -196,7 +196,7 @@ Q: How do I start?
 A: Email shamsullahbaig999@gmail.com or message me on WhatsApp with a short description of what you need, and I'll reply with next steps.
 
 ## Service: Web Developer in Islamabad & Rawalpindi
-URL: https://shamsullah01.github.io/web-developer-islamabad/
+URL: https://shamsullahbaig.valour.ai/web-developer-islamabad/
 
 I'm a freelance web developer based in Islamabad. I build websites and web applications for businesses in Islamabad and Rawalpindi, and I'm happy to meet in person to plan your project.
 
@@ -236,7 +236,7 @@ Q: How do I contact you?
 A: Email shamsullahbaig999@gmail.com or message me on WhatsApp at +92 317 929 2371.
 
 ## Service: React, Next.js & Node.js Development
-URL: https://shamsullah01.github.io/hire-react-nextjs-developer/
+URL: https://shamsullahbaig.valour.ai/hire-react-nextjs-developer/
 
 I build fast, maintainable front ends in React, Next.js and TypeScript, backed by Node.js and NestJS APIs. 3+ years of production work on government, healthcare, SaaS and retail platforms.
 
@@ -273,7 +273,7 @@ Q: How do I hire you?
 A: Email shamsullahbaig999@gmail.com or message me on WhatsApp. You can also download my CV.
 
 ## Service: AI Agent & Chatbot Development
-URL: https://shamsullah01.github.io/ai-agent-development/
+URL: https://shamsullahbaig.valour.ai/ai-agent-development/
 
 I'm an AI engineer who builds AI agents trained on your own documents. They answer customers, qualify leads and book appointments 24/7, and they plug into the software you already run.
 
@@ -323,7 +323,7 @@ Q: How do I start an AI project with you?
 A: Email shamsullahbaig999@gmail.com or message me on WhatsApp describing what you want the agent to do, and I'll suggest the simplest setup that works.
 
 ## Service: AI Chatbot Development & ChatGPT Integration
-URL: https://shamsullah01.github.io/ai-chatbot-development/
+URL: https://shamsullahbaig.valour.ai/ai-chatbot-development/
 
 I build AI chatbots that answer your customers from your own documents, and I add ChatGPT-style features (OpenAI or Claude) to websites and apps you already have.
 
@@ -362,7 +362,7 @@ Q: How do I get started?
 A: Email shamsullahbaig999@gmail.com or message me on WhatsApp with what you want the chatbot to do.
 
 ## Project: Agentra by Valour AI
-Case study: https://shamsullah01.github.io/projects/agentra-ai-agents/
+Case study: https://shamsullahbaig.valour.ai/projects/agentra-ai-agents/
 Live site: https://agents.valour.ai/
 Type: AI agent platform · Client: ValourAI (international client) · Role: Developer, ValourAI team · Industry: AI / SaaS
 Tech: AI Agents, LLMs, React, TypeScript, Node.js, NestJS, REST APIs
@@ -387,7 +387,7 @@ Results:
 - Agents answer and book without staff involvement, around the clock
 
 ## Project: DTS Gilgit-Baltistan Tourism Portal
-Case study: https://shamsullah01.github.io/projects/dts-gilgit-baltistan-tourism-portal/
+Case study: https://shamsullahbaig.valour.ai/projects/dts-gilgit-baltistan-tourism-portal/
 Live site: https://app.dtsgb.gog.pk/
 Type: Government licensing portal · Client: Government of Gilgit-Baltistan (via uExel Foundation) · Role: Front-end owner (React) · Industry: Government / Tourism
 Tech: React, TypeScript, NestJS, REST APIs, Online Payments, AWS
@@ -413,7 +413,7 @@ Results:
 - Licensing processed online in 3 to 14 days, with licences valid for a renewable year
 
 ## Project: PROMIS
-Case study: https://shamsullah01.github.io/projects/promis-product-management-system/
+Case study: https://shamsullahbaig.valour.ai/projects/promis-product-management-system/
 Live site: https://promis.precipiodx.com/
 Type: Product management information system · Client: Precipio Diagnostics (via uExel Foundation) · Role: Full-stack developer, module owner · Industry: Healthcare / Diagnostics
 Tech: React, TypeScript, NestJS, Node.js, REST APIs, SQL
@@ -438,7 +438,7 @@ Results:
 - Full module ownership, from database to UI
 
 ## Project: IMS for USS Group
-Case study: https://shamsullah01.github.io/projects/ims-ai-enterprise-platform/
+Case study: https://shamsullahbaig.valour.ai/projects/ims-ai-enterprise-platform/
 Live site: https://ims.ussgroup.pk/
 Type: AI-integrated enterprise platform · Client: USS Group (via uExel Foundation) · Role: Full-stack developer, AI integration · Industry: Enterprise
 Tech: React, NestJS, Node.js, AI Data Processing, REST APIs, AWS
@@ -462,7 +462,7 @@ Results:
 - Live production platform for an enterprise client
 
 ## Project: UXL POS
-Case study: https://shamsullah01.github.io/projects/uxl-pos-point-of-sale/
+Case study: https://shamsullahbaig.valour.ai/projects/uxl-pos-point-of-sale/
 Live site: https://app.uxlpos.com/
 Type: Multi-tenant point-of-sale SaaS · Client: uExel Foundation (SaaS product) · Role: Full-stack developer · Industry: Retail / SaaS
 Tech: React, NestJS, Node.js, MySQL, Payment Gateway, AWS
@@ -488,7 +488,7 @@ Results:
 - Hosted on AWS with 99%+ uptime
 
 ## Project: Elham Asia
-Case study: https://shamsullah01.github.io/projects/elham-asia-tour-operator-website/
+Case study: https://shamsullahbaig.valour.ai/projects/elham-asia-tour-operator-website/
 Live site: https://www.elhamasia.com/
 Type: Tour operator website · Client: Elham Asia · Role: Web developer · Industry: Travel / Tourism
 Tech: Web Development, Responsive UI, UI/UX, SEO
@@ -511,7 +511,7 @@ Results:
 - Live website for a licensed tour operator
 
 ## Project: EVRAAH
-Case study: https://shamsullah01.github.io/projects/evraah-ev-charger-locator/
+Case study: https://shamsullahbaig.valour.ai/projects/evraah-ev-charger-locator/
 Live site: https://evraah.com/
 Type: EV charger locator & route planner · Client: Personal project · Role: Founder & full-stack developer · Industry: Mobility / EV
 Tech: Full-Stack, React, Node.js, Maps, Route Planning
@@ -535,4 +535,4 @@ Results:
 - Live at evraah.com
 - Covers 69 stations across 12 cities
 
-Last updated: 2026-11-08
+Last updated: 2026-11-11
